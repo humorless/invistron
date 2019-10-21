@@ -15,3 +15,6 @@ Commanding by the philosophy of service, technology, trust and mutual-sharing, w
 ![DUNS](/assets/images/about/duns-cert.jpg )
 ![top1000](/assets/images/about/top1000-cert.png )
 ![TUVR](/assets/images/about/TUVR-cert.jpg )
+
+[DUNS Certified Profile](https://dunscertified.dnb.com.tw/DUNSCertifiedProfile/658542584)
+[TÜV Rheinland 2019](http://info2.taiwantrade.com/CH/resources/TUV/0000050038.pdf)
