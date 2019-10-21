@@ -1,0 +1,193 @@
+.toc-sidebar, .toc-hidden {
+    display: none;
+}
+
+.toc {
+    .toc-visible {
+        position: -webkit-sticky;  // required for Safari
+        position: sticky;  // not supported on IE, Opera Mini, UC for Android
+        top: 0; // required as well.
+    }
+}
+
+header {
+    .cbmn-logo {
+        display: none;
+    }
+}
+
+.navbar {
+    .navbar-brand {
+        img {
+            width: 12rem;
+        }
+    }
+
+    .navbar-toggler {
+        span {
+            &:first-child {
+                font-size: 0.9rem;
+                padding-right: 0.5rem;
+            }
+        }
+    }
+
+    .navbar-nav {
+        float: none;
+        margin: 0 auto;
+
+        .nav-item {
+            margin-right: 1rem;
+            padding-top: 0;
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            &:last-child {
+                margin-right: 0;
+            }
+
+            &:hover {
+                border-bottom: 1px solid black;
+            }
+        }
+    }
+
+    .dropdown-toggle {
+        padding-top: 0;
+        text-decoration: none;
+    }
+
+    .dropdown-item {
+        text-decoration: none;
+    }
+}
+
+@media only screen and (min-width: 48rem) {
+    body {
+        display: flex;
+
+        .main-content {
+            width: 75%;
+            padding: 0 2.5rem;
+
+            &.display-full {
+                width: 100%;
+            }
+        }
+    }
+
+    header {
+        .cbmn-logo {
+            background: url(../images/cbmn-logo.png) no-repeat center center;
+            background-size: 20rem;
+            color: transparent;
+            display: block;
+            height: 4.25rem;
+            margin: 2rem 0 0 0;
+        }
+    }
+
+    .toc-sidebar {
+        background-color: $blue-gray;
+        display: block;
+        font-size: .9rem;
+
+        width: 25%;
+
+        &.no-bg {
+            background-color: transparent;
+        }
+    }
+
+    .toc-header {
+        display: block;
+        height: 3rem;
+        padding: 0 0 0 0.5rem;
+
+        button {
+            width: 100%;
+            background-color: transparent;
+            border-width: 0;
+            font-size: 1.5rem;
+            text-align: left !important;
+
+            span {
+                font-size: 1rem;
+                font-weight: bold;
+            }
+
+            i {
+                margin: 0.25rem 0.25rem 0 0;
+                float: right;
+            }
+        }
+    }
+
+    .toc-link {
+        display: none;
+        padding: 0.3rem 1rem;
+
+        &:hover {
+            background-color: $blue-bg;
+
+            a {
+                color: $white;
+            }
+        }
+
+        a {
+            color: $black;
+            text-decoration: none;
+        }
+
+        &.show {
+            display: block;
+        }
+    }
+
+    .toc-visible {
+        &.hide {
+            display: none;
+        }
+    }
+
+    .toc-hidden {
+        &.show {
+            position: fixed;
+            background-color: $blue-gray;
+            display: block;
+
+            button {
+                background-color: transparent;
+                border-width: 0;
+                font-size: 1.5rem;
+            }
+        }
+    }
+
+    .second {
+        padding-left: .5rem;
+    }
+
+    .third {
+        padding-left: 1rem;
+    }
+
+    .navbar {
+        margin-bottom: 2rem;
+
+        .navbar-brand {
+            display: none;
+        }
+    }
+
+    header {
+        .cbmn-logo {
+            background: url(../images/cbmn-logo.png) no-repeat center center;
+            background-size: 20rem;
+            color: transparent;
+            display: block;
+            height: 4.25rem;
+            margin: 2rem 0 0 0;
+        }
+    }
+}

@@ -1,0 +1,17 @@
+.docs {
+    h2, h3, h4, h5, h6 {
+        margin-top: 1rem;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    code {
+         font-family: 'Lucida Console', monospace;
+
+         span {
+             font-family: 'Lucida Console', monospace;
+         }
+    }
+}

@@ -1,0 +1,56 @@
+// COLORS
+$black: #33343e;
+$white: #ffffff;
+$green-bg: #62b132;
+$blue-bg: #5881d8;
+$blue-gray: #bdccd4;
+
+// FONTS
+$main-font: 'Oswald', sans-serif;
+$secondary-font: 'Roboto', sans-serif;
+
+// GENERAL STYLING
+h1, h2, h3, h4, h5, h6, a, p, span {
+    color: $black;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $main-font;
+}
+
+h2, h3 {
+    font-size: 1.5rem;
+}
+
+p, span, li {
+    font-family: $secondary-font
+}
+
+a {
+    color: $blue-bg;
+    text-decoration: underline;
+
+    &:hover {
+        color: $black;
+    }
+}
+
+.no-toc {
+    .main-content {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 48rem) {
+    h2 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+}
+
+.sr-only {
+    color: transparent;
+}
