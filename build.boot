@@ -5,6 +5,7 @@
                           [hiccup "2.0.0-alpha1"] ;
                           [enlive "1.1.6"] ;
                           [boot-fmt/boot-fmt "0.1.8"] ;
+                          [boot-cljfmt "0.1.3" :scope "test"]
                           [pandeiro/boot-http "0.8.3"] ;
                           [boot-deps "0.1.9"] ;
                           [deraen/boot-sass "0.3.1"] ;
