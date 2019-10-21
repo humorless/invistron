@@ -18,13 +18,9 @@
    [:div#navbar-cbmn.collapse.navbar-collapse
     [:div.navbar-nav [:a.nav-item.nav-link {:href "/"} "Home"]
      [:a.nav-item.nav-link {:href "/about.html"} "About"]
-     [:div.nav-item.dropdown
-      [:a.nav-link.dropdown-toggle {:href "#" :data-toggle "dropdown" :id "workshopDropdownMenu" :aria-haspopup "true" :aria-expanded "false"} "Workshop"]
-      [:div.dropdown-menu {:aria-labelledby "workshopDropdownMenu"}
-        [:a.dropdown-item {:href "/welcome"} "Welcome"]
-        [:a.dropdown-item {:href "/installfest"} "InstallFest"]
-        [:a.dropdown-item {:href "/track1"} "Track 1"]]]
-     [:a.nav-item.nav-link {:href "/code-of-conduct.html"} "Code of Conduct"]]]])
+     [:a.nav-item.nav-link {:href "/product.html"} "Product"]
+     [:a.nav-item.nav-link {:href "/news.html"} "News"]
+     [:a.nav-item.nav-link {:href "/contact.html"} "Contact"]]]])
 
 (defn create-logo
   "This creates the main logo."
