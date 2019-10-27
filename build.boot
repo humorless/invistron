@@ -23,14 +23,19 @@
 (def track1? (filter-builder "public/track1"))
 (def installfest? (filter-builder "public/installfest"))
 (def welcome? (filter-builder "public/welcome"))
+(def product? (filter-builder "public/product"))
 
 (deftask
   build
   "Base task, you probably want to use `build-prod` or `dev`."
   []
-  (comp (markdown)
+  (comp (global-metadata)
+        (markdown)
         (render :renderer 'site.core/page
-                :filterer (complement (some-fn welcome? installfest? track1?)))
+                :filterer (complement (some-fn welcome? installfest? track1? product?)))
+        (paginate :renderer 'site.core/paginate-page
+                  :filterer product?
+                  :sortby :path)
         (collection :renderer 'site.core/doc-page
                     :filterer track1?
                     :sortby :path
