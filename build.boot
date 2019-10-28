@@ -20,10 +20,8 @@
 
 (defn filter-builder [prefix] (comp #(str/starts-with? % prefix) :path))
 
-(def track1? (filter-builder "public/track1"))
-(def installfest? (filter-builder "public/installfest"))
-(def welcome? (filter-builder "public/welcome"))
 (def product? (filter-builder "public/product"))
+(def home? (filter-builder "public/product"))
 
 (deftask
   build
@@ -32,22 +30,14 @@
   (comp (global-metadata)
         (markdown)
         (render :renderer 'site.core/page
-                :filterer (complement (some-fn welcome? installfest? track1? product?)))
+                :filterer (complement (some-fn product?)))
         (paginate :renderer 'site.core/paginate-page
                   :filterer product?
                   :sortby :path)
-        (collection :renderer 'site.core/doc-page
-                    :filterer track1?
+        (collection :renderer 'site.core/home-page
+                    :filterer home?
                     :sortby :path
-                    :page "track1/index.html")
-        (collection :renderer 'site.core/doc-page
-                    :filterer welcome?
-                    :sortby :path
-                    :page "welcome/index.html")
-        (collection :renderer 'site.core/doc-page
-                    :filterer installfest?
-                    :sortby :path
-                    :page "installfest/index.html")
+                    :page "index.html")
         (sass)))
 
 (deftask build-prod "Emit HTML files" [] (comp (build) (target)))

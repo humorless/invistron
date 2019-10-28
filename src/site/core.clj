@@ -67,7 +67,7 @@
 (defn page
   [data]
   (hp/html5 {:lang "en"}
-            (create-head "ClojureBridge MN")
+            (create-head "Invistron")
             [:body.no-toc (common/create-main-content data)
              (load-bootstrap-js)]))
 
@@ -83,6 +83,21 @@
      [:ul.items.columns.small-12
       (for [post posts]
         [:li (str (:title post) " " (:vendor post) "|" (:model post))])]]))
+
+(defn home-page
+  "Takes in a collection of pages and concatenates them, additionally add
+   a table of contents and klipse."
+  [data]
+  (let [contents (->> data
+                        :entries
+                        (map :content)
+                        reverse
+                        (clojure.string/join ""))
+          data {:entry {:content contents}}]
+      (hp/html5 {:lang "en"}
+            (create-head "Invistron")
+            [:body.no-toc (common/create-main-content data)
+             (load-bootstrap-js)])))
 
 (defn doc-page
   "Takes in a collection of pages and concatenates them, additionally add
