@@ -84,16 +84,19 @@
       (for [post posts]
         [:li (str (:title post) " " (:vendor post) "|" (:model post))])]]))
 
+
 (defn home-page
   "Takes in a collection of pages and concatenates them, additionally add
    a table of contents and klipse."
   [data]
-  (let [contents (->> data
+  (let [major-products (->> data
                         :entries
-                        (map :content)
-                        reverse
-                        (clojure.string/join ""))
-          data {:entry {:content contents}}]
+                        (filter #(:major %)))
+        contents       (->> data
+                        :entries
+                        (filter #(:home %))
+                        (map :content))
+        data {:entry {:content contents}}]
       (hp/html5 {:lang "en"}
             (create-head "Invistron")
             [:body.no-toc (common/create-main-content data)

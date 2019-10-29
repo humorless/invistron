@@ -1,0 +1,12 @@
+---
+title: "NTMFS4834NT1G"
+vendor: "ON Semiconductor"
+model: "MOSFET N-CH 30V 13A SO-8FL"
+major: true
+image: "https://im01.itaiwantrade.com/1a2574e3-dc71-4ffc-8e52-0d3247e2cb23/NTMFS4834NT1G.jpg"
+---
+
+<div class="innerText keyfeatrue" itemprop="description">
+                                    <p></p><table width="627"> <tbody> <tr> <td width="199"> <p><strong>Category</strong></p> </td> <td> <p>Discrete Semiconductor Products</p> </td> </tr> <tr> <td width="199"> <p><strong>Family</strong></p> </td> <td> <p>Transistors - FETs, MOSFETs - Single</p> </td> </tr> <tr> <td width="199"> <p><strong>Manufacturer</strong></p> </td> <td> <p>ON Semiconductor</p> </td> </tr> <tr> <td width="199"> <p><strong>Series</strong></p> </td> <td> <p>-</p> </td> </tr> <tr> <td width="199"> <p><strong>Packaging</strong><strong>&nbsp;</strong></p> </td> <td> <p>Tape &amp; Reel (TR)&nbsp;</p> </td> </tr> <tr> <td width="199"> <p><strong>FET Type</strong></p> </td> <td> <p>MOSFET N-Channel, Metal Oxide</p> </td> </tr> <tr> <td width="199"> <p><strong>FET Feature</strong></p> </td> <td> <p>Standard</p> </td> </tr> <tr> <td width="199"> <p><strong>Drain to Source Voltage (Vdss)</strong></p> </td> <td> <p>30V</p> </td> </tr> <tr> <td width="199"> <p><strong>Current - Continuous Drain (Id) @ 25°C</strong></p> </td> <td> <p>13A (Ta), 130A (Tc)</p> </td> </tr> <tr> <td width="199"> <p><strong>Rds On (Max) @ Id, Vgs</strong></p> </td> <td> <p>3 mOhm @ 30A, 10V</p> </td> </tr> <tr> <td width="199"> <p><strong>Vgs(th) (Max) @ Id</strong></p> </td> <td> <p>2.5V @ 250µA</p> </td> </tr> <tr> <td width="199"> <p><strong>Gate Charge (Qg) @ Vgs</strong></p> </td> <td> <p>48nC @ 4.5V</p> </td> </tr> <tr> <td width="199"> <p><strong>Input Capacitance (Ciss) @ Vds</strong></p> </td> <td> <p>4500pF @ 12V</p> </td> </tr> <tr> <td width="199"> <p><strong>Power - Max</strong></p> </td> <td> <p>900mW</p> </td> </tr> <tr> <td width="199"> <p><strong>Operating Temperature</strong></p> </td> <td> <p>-55°C ~ 150°C (TJ)</p> </td> </tr> <tr> <td width="199"> <p><strong>Mounting Type</strong></p> </td> <td> <p>Surface Mount</p> </td> </tr> <tr> <td width="199"> <p><strong>Package / Case</strong></p> </td> <td> <p>8-PowerTDFN, 5 Leads</p> </td> </tr> <tr> <td width="199"> <p><strong>Supplier Device Package</strong></p> </td> <td> <p>5-DFN, 8-SO Flat Lead (5x6)</p> </td> </tr> </tbody> </table><p></p>
+                                 </div>
+

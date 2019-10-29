@@ -21,7 +21,8 @@
 (defn filter-builder [prefix] (comp #(str/starts-with? % prefix) :path))
 
 (def product? (filter-builder "public/product"))
-(def home? (filter-builder "public/product"))
+(def major? (comp #(= % true) :major))
+(def home? (comp #(= % true) :home))
 
 (deftask
   build
@@ -30,12 +31,12 @@
   (comp (global-metadata)
         (markdown)
         (render :renderer 'site.core/page
-                :filterer (complement (some-fn product?)))
+                :filterer (complement (some-fn product? home?)))
         (paginate :renderer 'site.core/paginate-page
                   :filterer product?
                   :sortby :path)
         (collection :renderer 'site.core/home-page
-                    :filterer home?
+                    :filterer (some-fn home? major?)
                     :sortby :path
                     :page "index.html")
         (sass)))
