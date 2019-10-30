@@ -4,23 +4,25 @@
 (defn create-navigation
   "This creates the navigation bar."
   []
-  [:nav.navbar.navbar-light.bg-light.navbar-toggleable-sm
-   [:a.navbar-brand {:href "/"}
-    [:img {:src "/assets/images/cbmn-logo.png", :alt "clojurebridge-mn-logo"}]]
-   [:button.navbar-toggler.navbar-toggler-right
-    {:type "button",
-     :data-toggle "collapse",
-     :data-target "#navbar-cbmn",
-     :aria-controls "navbar-cbmn",
-     :aria-expanded "false",
-     :aria-label "Toggle Navigation"} [:span "Menu"]
-    [:span.navbar-toggler-icon]]
-   [:div#navbar-cbmn.collapse.navbar-collapse
-    [:div.navbar-nav [:a.nav-item.nav-link {:href "/"} "Home"]
-     [:a.nav-item.nav-link {:href "/about.html"} "About"]
-     [:a.nav-item.nav-link {:href "/product.html"} "Product"]
-     [:a.nav-item.nav-link {:href "/news.html"} "News"]
-     [:a.nav-item.nav-link {:href "/contact.html"} "Contact"]]]])
+  [:nav.navbar.navbar-expand-lg.navbar-light.bg-white
+   [:div.container
+     [:a.navbar-brand {:href "/"}
+      [:img {:src "/assets/images/invistron.jpg", :alt "invistron-logo"}]]
+     [:button.navbar-toggler.navbar-toggler-right
+      {:type "button",
+       :data-toggle "collapse",
+       :data-target "#navbar-ivtn",
+       :aria-controls "navbar-ivtn",
+       :aria-expanded "false",
+       :aria-label "Toggle Navigation"} [:span "Menu"]
+      [:span.navbar-toggler-icon]]
+     [:div#navbar-ivtn.collapse.navbar-collapse
+      [:ul.navbar-nav.ml-auto
+       [:li.nav-item [:a.nav-link {:href "/"} "Home"]]
+       [:li.nav-item [:a.nav-link {:href "/about.html"} "About"]]
+       [:li.nav-item [:a.nav-link {:href "/product.html"} "Product"]]
+       [:li.nav-item [:a.nav-link {:href "/news.html"} "News"]]
+       [:li.nav-item [:a.nav-link {:href "/contact.html"} "Contact"]]]]]])
 
 (defn create-logo
   "This creates the main logo."
@@ -30,7 +32,7 @@
 (defn create-header
   "This creates the top header."
   []
-  [:header (create-logo) (create-navigation)])
+  [:header (create-navigation)])
 
 (defn find-matches
   "Take in lists a and b and return the elements that appear in both.

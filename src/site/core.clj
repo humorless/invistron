@@ -7,15 +7,6 @@
   "This will render the <head>."
   [title]
   [:head [:title title] [:meta {:charset "utf-8"}]
-   [:link
-    {:rel "stylesheet",
-     :href
-       "https://cdnjs.cloudflare.com/ajax/libs/prism/1.9.0/themes/prism.min.css"}]
-   [:script
-    {:src "https://cdnjs.cloudflare.com/ajax/libs/prism/1.9.0/prism.min.js"}]
-   [:script {:src "/scripts/prism-clojure.js"}]
-   [:script
-    {:src "https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"}]
    [:meta
     {:content "width=device-width, initial-scale=1, shrink-to-fit=no",
      :name "viewport"}]
@@ -29,17 +20,10 @@
        "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"}]
    [:link
     {:rel "stylesheet",
-     :href
-       "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css",
-     :integrity
-       "sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ",
-     :crossorigin "anonymous"}]
+     :href "https://fonts.googleapis.com/css?family=Oswald|Roboto"}]
    [:link
     {:rel "stylesheet",
-     :href "https://fonts.googleapis.com/css?family=Oswald|Roboto"}]
-   (hp/include-css
-     "https://storage.googleapis.com/app.klipse.tech/css/codemirror.css"
-     "/assets/css/main.css")])
+     :href "/assets/css/theme.css"}]])
 
 (defn load-bootstrap-js
   "This loads all js files needed for Bootstrap. Must be the last fn before closing <body>."
@@ -68,8 +52,7 @@
   [data]
   (hp/html5 {:lang "en"}
             (create-head "Invistron")
-            [:body.no-toc (common/create-main-content data)
-             (load-bootstrap-js)]))
+            [:body.no-toc (common/create-main-content data)]))
 
 (defn paginate-page [{global-meta :meta posts :entries entry :entry}]
   (hp/html5 {:lang "en" :itemtype "http://schema.org/Blog"}
@@ -99,8 +82,7 @@
         data {:entry {:content contents}}]
       (hp/html5 {:lang "en"}
             (create-head "Invistron")
-            [:body.no-toc (common/create-main-content data)
-             (load-bootstrap-js)])))
+            [:body.no-toc (common/create-main-content data)])))
 
 (defn doc-page
   "Takes in a collection of pages and concatenates them, additionally add
