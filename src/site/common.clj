@@ -35,7 +35,7 @@
    is added as a class to the div.container. This is helpful for
    styling each page uniquely."
   [data names]
-  [:section.pt-8.pt-md-11
+  [:section.pt-4.pt-md-11
    [:div.container
      {:class (-> data
                  :entry

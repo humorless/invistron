@@ -1,6 +1,7 @@
 (ns site.core
   (:require [hiccup.page :as hp]
             [site.common :as common]
+            [site.home :as home]
             [site.table-of-contents :as toc]))
 
 (defn create-head
@@ -25,6 +26,44 @@
     {:rel "stylesheet",
      :href "/assets/css/theme.css"}]])
 
+(defn home-page
+  "Takes in a collection of pages and concatenates them, additionally add
+   a table of contents and klipse."
+  [data]
+  (let [major-products (->> data
+                        :entries
+                        (filter #(:major %)))
+        contents       (->> data
+                        :entries
+                        (filter #(:home %))
+                        (map :content))
+        data {:entry {:content contents}}]
+      (hp/html5 {:lang "en"}
+            (create-head "Invistron")
+            [:body (home/create-home-content data)])))
+
+
+(defn page
+  [data]
+  (hp/html5 {:lang "en"}
+            (create-head "Invistron")
+            [:body.bg-light (common/create-main-content data)]))
+
+
+(defn paginate-page [{global-meta :meta posts :entries entry :entry}]
+  (hp/html5 {:lang "en" :itemtype "http://schema.org/Blog"}
+    [:head
+      [:title (str (:site-title global-meta) "|" (:tag entry))]
+      [:meta {:charset "utf-8"}]
+      [:meta {:http-equiv "X-UA-Compatible" :content "IE=edge,chrome=1"}]
+      [:meta {:name "viewport" :content "width=device-width, initial-scale=1.0, user-scalable=no"}]]
+    [:body.bg-light
+     [:h1 (str "Page " (:page entry))]
+     [:ul.items.columns.small-12
+      (for [post posts]
+        [:li (str (:title post) " " (:vendor post) "|" (:model post))])]]))
+
+
 (defn load-bootstrap-js
   "This loads all js files needed for Bootstrap. Must be the last fn before closing <body>."
   []
@@ -47,42 +86,6 @@
       :integrity
         "sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn",
       :crossorigin "anonymous"}]))
-
-(defn page
-  [data]
-  (hp/html5 {:lang "en"}
-            (create-head "Invistron")
-            [:body.bg-light (common/create-main-content data)]))
-
-(defn paginate-page [{global-meta :meta posts :entries entry :entry}]
-  (hp/html5 {:lang "en" :itemtype "http://schema.org/Blog"}
-    [:head
-      [:title (str (:site-title global-meta) "|" (:tag entry))]
-      [:meta {:charset "utf-8"}]
-      [:meta {:http-equiv "X-UA-Compatible" :content "IE=edge,chrome=1"}]
-      [:meta {:name "viewport" :content "width=device-width, initial-scale=1.0, user-scalable=no"}]]
-    [:body.bg-light
-     [:h1 (str "Page " (:page entry))]
-     [:ul.items.columns.small-12
-      (for [post posts]
-        [:li (str (:title post) " " (:vendor post) "|" (:model post))])]]))
-
-
-(defn home-page
-  "Takes in a collection of pages and concatenates them, additionally add
-   a table of contents and klipse."
-  [data]
-  (let [major-products (->> data
-                        :entries
-                        (filter #(:major %)))
-        contents       (->> data
-                        :entries
-                        (filter #(:home %))
-                        (map :content))
-        data {:entry {:content contents}}]
-      (hp/html5 {:lang "en"}
-            (create-head "Invistron")
-            [:body.bg-light (common/create-main-content data)])))
 
 (defn doc-page
   "Takes in a collection of pages and concatenates them, additionally add
