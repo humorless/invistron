@@ -24,16 +24,6 @@
        [:li.nav-item [:a.nav-link {:href "/news.html"} "News"]]
        [:li.nav-item [:a.nav-link {:href "/contact.html"} "Contact"]]]]]])
 
-(defn create-logo
-  "This creates the main logo."
-  []
-  [:h1 [:a.cbmn-logo {:href "/"} "clojurebridge-mn"]])
-
-(defn create-header
-  "This creates the top header."
-  []
-  [:header (create-navigation)])
-
 (defn find-matches
   "Take in lists a and b and return the elements that appear in both.
    src: https://repl.it/repls/VioletIdealisticAmurratsnake"
@@ -56,5 +46,5 @@
 (defn create-main-content
   "This creates the main content of each page."
   [data]
-  [:section.main-content (create-header)
+  [:section.main-content (create-navigation)
    (add-page-classname data ["index" "events" "about"])])
