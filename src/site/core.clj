@@ -52,7 +52,7 @@
   [data]
   (hp/html5 {:lang "en"}
             (create-head "Invistron")
-            [:body.no-toc (common/create-main-content data)]))
+            [:body.bg-light (common/create-main-content data)]))
 
 (defn paginate-page [{global-meta :meta posts :entries entry :entry}]
   (hp/html5 {:lang "en" :itemtype "http://schema.org/Blog"}
@@ -61,7 +61,7 @@
       [:meta {:charset "utf-8"}]
       [:meta {:http-equiv "X-UA-Compatible" :content "IE=edge,chrome=1"}]
       [:meta {:name "viewport" :content "width=device-width, initial-scale=1.0, user-scalable=no"}]]
-    [:body
+    [:body.bg-light
      [:h1 (str "Page " (:page entry))]
      [:ul.items.columns.small-12
       (for [post posts]
@@ -82,7 +82,7 @@
         data {:entry {:content contents}}]
       (hp/html5 {:lang "en"}
             (create-head "Invistron")
-            [:body.no-toc (common/create-main-content data)])))
+            [:body.bg-light (common/create-main-content data)])))
 
 (defn doc-page
   "Takes in a collection of pages and concatenates them, additionally add

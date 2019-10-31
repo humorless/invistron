@@ -7,7 +7,7 @@
   [:nav.navbar.navbar-expand-lg.navbar-light.bg-white
    [:div.container
      [:a.navbar-brand {:href "/"}
-      [:img {:src "/assets/images/invistron.jpg", :alt "invistron-logo"}]]
+      [:img {:src "/assets/images/invistron.png", :alt "invistron-logo"}]]
      [:button.navbar-toggler.navbar-toggler-right
       {:type "button",
        :data-toggle "collapse",
@@ -35,16 +35,27 @@
    is added as a class to the div.container. This is helpful for
    styling each page uniquely."
   [data names]
-  [:div.container
-   {:class (-> data
-               :entry
-               :slug)}
-   (-> data
-       :entry
-       :content)])
+  [:section.pt-8.pt-md-11
+   [:div.container
+     {:class (-> data
+                 :entry
+                 :slug)}
+     (-> data
+         :entry
+         :content)]])
+
+(defn create-footer
+  []
+  [:footer.py-8.py-md-11.bg-dark
+   [:div.container
+     [:a.navbar-brand {:href "/"}
+      [:img {:src "/assets/images/invistron.png", :alt "invistron-logo"}]]
+   ]])
 
 (defn create-main-content
   "This creates the main content of each page."
   [data]
-  [:section.main-content (create-navigation)
-   (add-page-classname data ["index" "events" "about"])])
+  [:div.main-content
+   (create-navigation)
+   (add-page-classname data ["index" "events" "about"])
+   (create-footer)])
