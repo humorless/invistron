@@ -17,7 +17,7 @@
             [:span.text-primary
               "Invistron"]]
           [:p.lead.text-center.text-md-left.text-muted.mb-6.mb-lg-8
-            "Get your electronic components in a smart way"]]]]])
+            "Service Integration On Electronic Components Supply Technology"]]]]])
 
 (defn create-features
   "add three features"

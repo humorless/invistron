@@ -49,7 +49,7 @@
   [:footer.py-8.py-md-11.bg-dark
    [:div.container
      [:a.navbar-brand {:href "/"}
-      [:img {:src "/assets/images/invistron.png", :alt "invistron-logo"}]]
+      [:img {:src "/assets/images/invistron_white.png", :alt "invistron-logo"}]]
    ]])
 
 (defn create-main-content
