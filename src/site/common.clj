@@ -60,8 +60,17 @@
   []
   [:footer.py-8.py-md-11.bg-dark
    [:div.container
-     [:a.navbar-brand {:href "/"}
-      [:img {:src "/assets/images/invistron_white.png", :alt "invistron-logo"}]]
+     [:div.row
+       [:div.col-lg-4.col-md-4.col-sm-12
+         [:a.navbar-brand {:href "/"}
+          [:img {:src "/assets/images/invistron_white.png", :alt "invistron-logo"}]]]
+       [:div.col-lg-7.col-md-7.col-sm-12
+         [:p.font-size-lg.text-white "Phone Number: +886-2-25559787"]
+         [:p.font-size-lg.text-white "Fax Number: +886-2-25559618"]
+         [:p.font-size-lg.text-white "Address: 4F-1 NO.45-1 CHANG-AN WEST ROAD,TAIPEI 103, TAIWAN"]
+         [:p.font-size-lg.text-white "Office Hours: Monday-Friday 9:00-18:00"]
+      ]
+     ]
    ]])
 
 (defn create-main-content

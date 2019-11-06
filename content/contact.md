@@ -20,7 +20,7 @@
             Owner: Jessie Wu <br/>
             Business Phone Number: +886-2-25559787  <br/>
             Company Fax Number: +886-2-25559618  <br/>
-            Office Address: 4F-1, NO.45, CHANG-AN WEST ROAD, TAIPEI 103, TAIWAN  <br/>
+            Office Address: 4F-1, NO.45-1, CHANG-AN WEST ROAD, TAIPEI 103, TAIWAN  <br/>
             Office Hours: Monday-Friday 9:00-18:00 <br/>
             </p>
         </div>
