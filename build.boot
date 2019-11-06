@@ -23,6 +23,13 @@
 (def product? (filter-builder "public/product"))
 (def major? (comp #(= % true) :major))
 (def home? (comp #(= % true) :home))
+(def active? (comp #(= % "Active Parts") :type))
+(def passive? (comp #(= % "Passive Components") :type))
+(def electro? (comp #(= % "Electromechanical") :type))
+(def wireless? (comp #(= % "Wireless Technologies") :type))
+(def led? (comp #(= % "LED") :type))
+(def power? (comp #(= % "Power Solution") :type))
+
 
 (deftask
   build
@@ -32,6 +39,30 @@
         (markdown)
         (render :renderer 'site.core/page
                 :filterer (complement (some-fn product? home?)))
+        (collection :renderer 'site.core/product-page
+                    :filterer (every-pred product? active?)
+                    :sortby :path
+                    :page "active.html")
+        (collection :renderer 'site.core/product-page
+                    :filterer (every-pred product? passive?)
+                    :sortby :path
+                    :page "passive.html")
+        (collection :renderer 'site.core/product-page
+                    :filterer (every-pred product? electro?)
+                    :sortby :path
+                    :page "electromechanical.html")
+        (collection :renderer 'site.core/product-page
+                    :filterer (every-pred product? wireless?)
+                    :sortby :path
+                    :page "wireless.html")
+        (collection :renderer 'site.core/product-page
+                    :filterer (every-pred product? led?)
+                    :sortby :path
+                    :page "led.html")
+        (collection :renderer 'site.core/product-page
+                    :filterer (every-pred product? power?)
+                    :sortby :path
+                    :page "power.html")
         (collection :renderer 'site.core/product-page
                     :filterer product?
                     :sortby :path

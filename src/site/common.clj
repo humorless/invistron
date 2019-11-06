@@ -20,7 +20,19 @@
       [:ul.navbar-nav.ml-auto
        [:li.nav-item [:a.nav-link {:href "/"} "Home"]]
        [:li.nav-item [:a.nav-link {:href "/about.html"} "About"]]
-       [:li.nav-item [:a.nav-link {:href "/product.html"} "Product"]]
+       [:li.nav-item.dropdown
+         [:a.nav-link.dropdown-toggle
+           {:id "productNavbar" :data-toggle "dropdown"
+            :href "/product.html" :aria-haspopup true :aria-expanded false}
+             "Product"]
+         [:div.dropdown-menu
+           {:aria-labelledby "productNavbar"}
+             [:a.dropdown-item {:href "./active.html"} "Active Parts"]
+             [:a.dropdown-item {:href "./passive.html"} "Passive Components"]
+             [:a.dropdown-item {:href "./electromechanical.html"} "Electromechanical"]
+             [:a.dropdown-item {:href "./wireless.html"} "Wireless Technologies"]
+             [:a.dropdown-item {:href "./led.html"} "LED"]
+             [:a.dropdown-item {:href "./power.html"} "Power Solutions"]]]
        [:li.nav-item [:a.nav-link {:href "/news.html"} "News"]]
        [:li.nav-item [:a.nav-link {:href "/contact.html"} "Contact"]]]]]])
 
