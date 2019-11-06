@@ -34,7 +34,7 @@
   "If a page's slug name is in the list of page names that name
    is added as a class to the div.container. This is helpful for
    styling each page uniquely."
-  [data names]
+  [data]
   [:section.py-8.pt-md-11.border-bottom
    [:div.container
      {:class (-> data
@@ -57,5 +57,5 @@
   [data]
   [:div.main-content
    (create-navigation)
-   (add-page-classname data ["index" "events" "about"])
+   (add-page-classname data)
    (create-footer)])

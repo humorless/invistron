@@ -24,7 +24,23 @@
      :href "https://fonts.googleapis.com/css?family=Oswald|Roboto"}]
    [:link
     {:rel "stylesheet",
-     :href "/assets/css/theme.css"}]])
+     :href "/assets/css/theme.css"}]
+   [:script
+     {:src "https://code.jquery.com/jquery-3.1.1.slim.min.js",
+      :integrity
+        "sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n",
+      :crossorigin "anonymous"}]])
+
+(defn create-product-head
+  "Render the head for product page"
+  [title]
+  (conj (create-head title)
+    [:link
+      {:rel "stylesheet"
+       :href "https://cdn.datatables.net/v/dt/dt-1.10.20/datatables.min.css"}]
+    [:script
+      {:type "text/javascript"
+       :src "https://cdn.datatables.net/v/dt/dt-1.10.20/datatables.min.js"}]))
 
 (defn home-page
   "Takes in a collection of pages and concatenates them, additionally add
@@ -50,18 +66,26 @@
             [:body.bg-light (common/create-main-content data)]))
 
 
-(defn paginate-page [{global-meta :meta posts :entries entry :entry}]
+(defn product-page [{global-meta :meta entries :entries}]
   (hp/html5 {:lang "en" :itemtype "http://schema.org/Blog"}
-    [:head
-      [:title (str (:site-title global-meta) "|" (:tag entry))]
-      [:meta {:charset "utf-8"}]
-      [:meta {:http-equiv "X-UA-Compatible" :content "IE=edge,chrome=1"}]
-      [:meta {:name "viewport" :content "width=device-width, initial-scale=1.0, user-scalable=no"}]]
+    (create-product-head "Invistron")
     [:body.bg-light
-     [:h1 (str "Page " (:page entry))]
-     [:ul.items.columns.small-12
-      (for [post posts]
-        [:li (str (:title post) " " (:vendor post) "|" (:model post))])]]))
+     (common/create-navigation)
+     [:section.py-8.pt-md-11.border-bottom
+      [:div.container
+       [:table#product-table.display
+        [:thead
+         [:tr
+          [:th "Type"] [:th "Vendor"] [:th "Name"] [:th "Model No"]]]
+        [:tbody
+         (for [entry entries]
+            [:tr
+              [:td (:type entry)] [:td (:vendor entry)] [:td (:title entry) ] [:td (:model entry)]])]]]]
+     (common/create-footer)
+     [:script {:type "text/javascript"}
+       "$(document).ready( function () {
+         $('#product-table').DataTable();
+       } );"]]))
 
 
 (defn load-bootstrap-js

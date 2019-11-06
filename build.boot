@@ -32,9 +32,10 @@
         (markdown)
         (render :renderer 'site.core/page
                 :filterer (complement (some-fn product? home?)))
-        (paginate :renderer 'site.core/paginate-page
-                  :filterer product?
-                  :sortby :path)
+        (collection :renderer 'site.core/product-page
+                    :filterer product?
+                    :sortby :path
+                    :page "product.html")
         (collection :renderer 'site.core/home-page
                     :filterer (some-fn home? major?)
                     :sortby :path
