@@ -84,7 +84,7 @@
      (common/create-footer)
      [:script {:type "text/javascript"}
        "$(document).ready( function () {
-         $('#product-table').DataTable();
+         $('#product-table').DataTable( {responsive: true} );
        } );"]]))
 
 
