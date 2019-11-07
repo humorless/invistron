@@ -10,7 +10,7 @@
         [:div.col-12.col-md-5.col-lg-6.order-md-2
           ;; images
           [:img.img-fluid.mw-md-150.mw-lg-130.mb-6.mb-md-0
-            {:src "/assets/img/illustrations/illustration-4.png", :alt "invistron-banner"}]]
+            {:src "/assets/images/electro-components.jpg", :alt "invistron-banner"}]]
         [:div.col-12.col-md-7.col-lg-6.order-md-1
           [:h1.display-3.text-center.text-md-left
             "Welcome to "
