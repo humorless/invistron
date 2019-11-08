@@ -16,7 +16,7 @@
             "Welcome to "
             [:span.text-primary
               "Invistron"]]
-          [:p.lead.text-center.text-md-left.text-muted.mb-6.mb-lg-8
+          [:h2.text-center.text-md-left.text-muted.mb-6.mb-lg-8
             "Service Integration On Electronic Components Supply Technology"]]]]])
 
 (defn create-features
