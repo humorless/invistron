@@ -18,10 +18,12 @@
             <h2>Details</h2>
             <p>
             Owner: Jessie Wu <br/>
+            Email: jessie@invistron.com.tw <br/>
             Business Phone Number: +886-2-25559787  <br/>
             Company Fax Number: +886-2-25559618  <br/>
             Office Address: 4F-1, NO.45-1, CHANG-AN WEST ROAD, TAIPEI 103, TAIWAN  <br/>
             Office Hours: Monday-Friday 9:00-18:00 <br/>
+            <a href="https://www.facebook.com/471337183653509/"> facebook link </a>
             </p>
         </div>
       </div>

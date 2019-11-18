@@ -24,6 +24,8 @@
   []
   [:section.pt-4.pt-md-11
    [:div.container
+    [:h2.text-center.text-primary.mb-6.mb-lg-8
+            "MAJOR LINE"]
     [:div {:id "carouselExampleControls", :class "carousel slide", :data-ride "carousel"}
      [:div {:class "carousel-inner"}
       [:div {:class "carousel-item active"}

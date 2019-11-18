@@ -65,13 +65,18 @@
          [:a.navbar-brand {:href "/"}
           [:img {:src "/assets/images/invistron_white.png", :alt "invistron-logo"}]]]
        [:div.col-lg-7.col-md-7.col-sm-12
+         [:p.font-size-lg.text-white "Email: jessie@invistron.com.tw"]
          [:p.font-size-lg.text-white "Phone Number: +886-2-25559787"]
          [:p.font-size-lg.text-white "Fax Number: +886-2-25559618"]
          [:p.font-size-lg.text-white "Address: 4F-1 NO.45-1 CHANG-AN WEST ROAD,TAIPEI 103, TAIWAN"]
          [:p.font-size-lg.text-white "Office Hours: Monday-Friday 9:00-18:00"]
-      ]
-     ]
-   ]])
+         [:p.font-size-lg.text-white
+           [:a.font-size-lg {:href "https://www.facebook.com/471337183653509/"}
+             "facebook link" ]]
+      ]]
+     [:div.footer-copyright.text-center.py-3
+       [:p.text-muted
+       "@ 2019 Copyright INVISTRON, Co. Ltd. All Rights Reserved"]]]])
 
 (defn create-main-content
   "This creates the main content of each page."
