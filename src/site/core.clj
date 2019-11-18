@@ -86,7 +86,8 @@
         [:tbody
          (for [entry entries]
             [:tr
-              [:td (:type entry)] [:td (:vendor entry)] [:td (:title entry) ] [:td (:model entry)]])]]]]
+              [:td (:type entry)] [:td (:vendor entry)] [:td (:title entry) ]
+              [:td [:a {:href (str "product/" (:slug entry) ".html")} (:model entry)]]])]]]]
      (common/create-footer)
      [:script {:type "text/javascript"}
        "$(document).ready( function () {
