@@ -1,8 +1,7 @@
 (ns site.core
   (:require [hiccup.page :as hp]
             [site.common :as common]
-            [site.home :as home]
-            [site.table-of-contents :as toc]))
+            [site.home :as home]))
 
 (defn create-head
   "This will render the <head>."
@@ -118,25 +117,3 @@
         "sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn",
       :crossorigin "anonymous"}]))
 
-(defn doc-page
-  "Takes in a collection of pages and concatenates them, additionally add
-   a table of contents and klipse."
-  [data]
-  (let [contents (->> data
-                      :entries
-                      (map :content)
-                      reverse
-                      (clojure.string/join ""))
-        data {:entry {:content contents}}]
-    (hp/html5
-      {:lang "en"}
-      (create-head "clojurebridge-mn")
-      [:script {:type "text/javascript"}
-       "window.klipse_settings = {selector: '.language-c', selector_eval_js: '.language-j'};"]
-      [:body.toc.docs (toc/create-toc-sidebar data)
-       (common/create-main-content data) (load-bootstrap-js)]
-      ;; The klipse plugin must be loaded last.
-      [:script
-       {:type "text/javascript",
-        :src
-          "https://storage.googleapis.com/app.klipse.tech/plugin/js/klipse_plugin.js"}])))
