@@ -1,5 +1,6 @@
 (ns site.common
-  (:require [clojure.set :as s]))
+  (:require [clojure.string :as string]
+            [clojure.set :as s]))
 
 (defn create-navigation
   "This creates the navigation bar."
@@ -56,6 +57,21 @@
      (-> data
          :entry
          :content)]])
+
+(defn add-breadcrumb
+  "extract the breadcrumb related content"
+  [data]
+  (let [component-type (-> data :entry :type)
+        root (string/lower-case (first (string/split component-type #" ")))
+        vendor (-> data :entry :vendor)
+        title (-> data :entry :title)]
+    [:nav {:aria-label "breadcrumb"}
+      [:ol.breadcrumb.breadcrumb-scroll
+        [:li.breadcrumb-item [:a {:href "/index.html"} "Home"]]
+        [:li.breadcrumb-item [:a {:href "/all-products.html"} "Product"]]
+        [:li.breadcrumb-item [:a {:href (str "/" root ".html")} component-type]]
+        [:li.breadcrumb-item vendor]
+        [:li.breadcrumb-item.active {:aria-current "page"} title]]]))
 
 (defn make-row
   [x y]
@@ -116,6 +132,7 @@
    (create-navigation)
    [:section.py-8.pt-md-11.border-bottom
      [:div.container
+       (add-breadcrumb data)
        [:div.row.align-items-center
          (add-image data)
          (add-table data)]]]
