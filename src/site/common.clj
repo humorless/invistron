@@ -23,10 +23,11 @@
        [:li.nav-item.dropdown
          [:a.nav-link.dropdown-toggle
            {:id "productNavbar" :data-toggle "dropdown"
-            :href "/product.html" :aria-haspopup true :aria-expanded false}
+            :aria-haspopup true :aria-expanded false}
              "Product"]
          [:div.dropdown-menu
            {:aria-labelledby "productNavbar"}
+             [:a.dropdown-item {:href "./all-products.html"} "All Products"]
              [:a.dropdown-item {:href "./active.html"} "Active Parts"]
              [:a.dropdown-item {:href "./passive.html"} "Passive Components"]
              [:a.dropdown-item {:href "./electromechanical.html"} "Electromechanical"]
@@ -56,6 +57,28 @@
          :entry
          :content)]])
 
+(defn make-row
+  [x y]
+  [:tr [:td [:strong x]] [:td y]])
+
+(defn add-table
+  "extract the table content"
+  [data]
+  (let [left (-> data :entry :left-cols)
+        right (-> data :entry :right-cols)]
+    [:div.col-12.col-md-7.col-lg-6.order-md-1
+      [:table.table-sm.table-bordered.table-striped
+        [:tbody
+         (map make-row left right)]]]))
+
+(defn add-image
+  "extract the img filename"
+  [data]
+  (let [img-file (-> data :entry :img)]
+    [:div.col-12.col-md-5.col-lg-6.order-md-2
+      [:img.figure-img.img-fluid.rounded.lift.lift-lg
+        {:src (str "/assets/images/product/" img-file)}]]))
+
 (defn create-footer
   []
   [:footer.py-8.py-md-11.bg-dark
@@ -84,4 +107,16 @@
   [:div.main-content
    (create-navigation)
    (add-page-classname data)
+   (create-footer)])
+
+(defn create-per-product-main-content
+  "This creates the main content of each per product page."
+  [data]
+  [:div.main-content
+   (create-navigation)
+   [:section.py-8.pt-md-11.border-bottom
+     [:div.container
+       [:div.row.align-items-center
+         (add-image data)
+         (add-table data)]]]
    (create-footer)])

@@ -39,6 +39,8 @@
         (markdown)
         (render :renderer 'site.core/page
                 :filterer (complement (some-fn product? home?)))
+        (render :renderer 'site.core/per-product-page
+                :filterer product?)
         (collection :renderer 'site.core/product-page
                     :filterer (every-pred product? active?)
                     :sortby :path
@@ -66,7 +68,7 @@
         (collection :renderer 'site.core/product-page
                     :filterer product?
                     :sortby :path
-                    :page "product.html")
+                    :page "all-products.html")
         (collection :renderer 'site.core/home-page
                     :filterer (some-fn home? major?)
                     :sortby :path

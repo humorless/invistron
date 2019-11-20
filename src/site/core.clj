@@ -49,21 +49,16 @@
        :src "https://cdn.datatables.net/v/dt/dt-1.10.20/datatables.min.js"}]))
 
 (defn home-page
-  "Takes in a collection of pages and concatenates them, additionally add
-   a table of contents and klipse."
+  "the home page renderer"
   [data]
-  (let [major-products (->> data
-                        :entries
-                        (filter #(:major %)))
-        contents       (->> data
-                        :entries
-                        (filter #(:home %))
-                        (map :content))
+  (let [contents (->> data
+                      :entries
+                      (filter #(:home %))
+                      (map :content))
         data {:entry {:content contents}}]
       (hp/html5 {:lang "en"}
             (create-head "Invistron")
             [:body (home/create-home-content data)])))
-
 
 (defn page
   [data]
@@ -71,6 +66,12 @@
             (create-head "Invistron")
             [:body.bg-light (common/create-main-content data)]))
 
+(defn per-product-page
+  "the per-product page renderer"
+  [data]
+  (hp/html5 {:lang "en"}
+            (create-head "Invistron")
+            [:body.bg-light (common/create-per-product-main-content data)]))
 
 (defn product-page [{global-meta :meta entries :entries}]
   (hp/html5 {:lang "en" :itemtype "http://schema.org/Blog"}
