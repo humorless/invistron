@@ -1,0 +1,83 @@
+---
+type: Active Parts
+vendor: RENESAS
+title: HD64F2329BVTE　　RENESAS
+model: Microcontroller, 16-Bit, FLASH, 25MHz, CMOS, PQFP120
+left-cols:
+- Microprocessor/Microcontroller/Peripheral IC Type
+- ADC Channels
+- Address Bus Width
+- Bit Size
+- Clock Frequency-Max
+- DAC Channels
+- DMA Channels
+- External Data Bus Width
+- JESD-30 Code
+- JESD-609 Code
+- Number of I/O Lines
+- Number of Terminals
+- Operating Temperature-Min
+- Operating Temperature-Max
+- Package Body Material
+- Package Code
+- Package Shape
+- Package Style
+- Peak Reflow Temperature (Cel)
+- PWM Channels
+- Qualification Status
+- ROM Programmability
+- Seated Height-Max
+- Speed
+- Supply Voltage-Nom
+- Supply Voltage-Min
+- Supply Voltage-Max
+- Surface Mount
+- Technology
+- Temperature Grade
+- Terminal Finish
+- Terminal Form
+- Terminal Pitch
+- Terminal Position
+- Time@Peak Reflow Temperature-Max (s)
+- Length
+- Width
+right-cols:
+- MICROCONTROLLER
+- 'YES'
+- '24.0'
+- '16'
+- 25.0  MHz
+- 'YES'
+- 'YES'
+- '16.0'
+- S-PQFP-G120
+- e6
+- '95.0'
+- '120'
+- -20.0  Cel
+- 75.0  Cel
+- PLASTIC/EPOXY
+- TFQFP
+- SQUARE
+- FLATPACK, THIN PROFILE, FINE PITCH
+- NOT SPECIFIED
+- 'YES'
+- Not Qualified
+- FLASH
+- 1.2  mm
+- 25.0  MHz
+- 3.3  V
+- 3.0  V
+- 3.6  V
+- 'YES'
+- CMOS
+- COMMERCIAL EXTENDED
+- TIN BISMUTH
+- GULL WING
+- 0.4  mm
+- QUAD
+- NOT SPECIFIED
+- 14.0  mm
+- 14.0  mm
+img: HD64F2329BVTE.jpg
+---

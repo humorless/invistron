@@ -1,0 +1,79 @@
+---
+type: Active Parts
+vendor: RENESAS
+title: UPC393G2-E1-A　　RENESAS
+model: Comparator Single 32V ±16V 8-Pin SOP T/R
+left-cols:
+- U RoHS
+- ECCN (US)
+- Manufacturer Type
+- Number of Channels per Chip
+- Process Technology
+- Typical Response Time (us)
+- Typical Response Time Range (us)
+- Output Type
+- Maximum Operating Supply Voltage (V)
+- Maximum Input Offset Voltage (mV)
+- Minimum Single Supply Voltage (V)
+- Typical Single Supply Voltage (V)
+- Maximum Single Supply Voltage (V)
+- Minimum Dual Supply Voltage (V)
+- Typical Dual Supply Voltage (V)
+- Maximum Dual Supply Voltage (V)
+- Typical Voltage Gain (dB)
+- Typical Voltage Gain Range (dB)
+- Maximum Input Bias Current (uA)
+- Typical Output Current (mA)
+- Maximum Quiescent Current (mA)
+- Maximum Power Dissipation (mW)
+- Power Supply Type
+- Minimum Operating Temperature (°C)
+- Maximum Operating Temperature (°C)
+- Packaging
+- Standard Package Name
+- Pin Count
+- Supplier Package
+- Mounting
+- Package Height
+- Package Length
+- Package Width
+- PCB changed
+- Lead Shape
+right-cols:
+- Compliant 
+- EAR99
+- Low Power Comparator
+- '2'
+- Bipolar
+- '1.3'
+- 0.5 to 5
+- Open Collector
+- ±16|32
+- 5@5V
+- '2'
+- 12|24|3|15|5|28|18|9
+- '32'
+- ±1
+- ±12|±3|±5|±15|±9
+- ±16
+- '106.02'
+- 90 to 110
+- 0.25@5V
+- 16@5V
+- 1@5V
+- '440'
+- Single|Dual
+- '-20'
+- '80'
+- Tape and Reel
+- SOP
+- '8'
+- SOP
+- Surface Mount
+- '1.49'
+- '5.2'
+- '4.4'
+- '8'
+- Gull-wing
+img: UPC393G2-E1-A.jpg
+---

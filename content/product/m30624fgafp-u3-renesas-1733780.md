@@ -1,0 +1,101 @@
+---
+type: Active Parts
+vendor: RENESAS
+title: M30624FGAFP#U3　　RENESAS
+model: MCU 16-bit M16C CISC 256KB Flash 5V 100-Pin PQFP Tray
+left-cols:
+- Family Name
+- Instruction Set Architecture
+- Device Core
+- Maximum CPU Frequency (MHz)
+- Maximum Clock Rate (MHz)
+- Data Bus Width (bit)
+- Program Memory Type
+- Program Memory Size
+- RAM Size
+- Maximum Expanded Memory Size
+- Programmability
+- Interface Type
+- Number of I/Os
+- No. of Timers
+- Number of ADCs
+- ADC Channels
+- ADC Resolution (bit)
+- Number of DACs
+- DAC Channels
+- DAC Resolution (bit)
+- USART
+- UART
+- USB
+- SPI
+- I2C
+- I2S
+- CAN
+- Ethernet
+- Watchdog
+- Minimum Operating Supply Voltage (V)
+- Typical Operating Supply Voltage (V)
+- Maximum Operating Supply Voltage (V)
+- Maximum Power Dissipation (mW)
+- Minimum Operating Temperature (°C)
+- Maximum Operating Temperature (°C)
+- Packaging
+- Pin Count
+- Standard Package Name
+- Supplier Package
+- CECC Qualified
+- Mounting
+- Package Height
+- Package Length
+- Package Width
+- PCB changed
+- Lead Shape
+right-cols:
+- M16C
+- CISC
+- M16C
+- '16'
+- '16'
+- '16'
+- Flash
+- 256KB
+- 20KB
+- 1MB
+- 'Yes'
+- SIM/UART
+- '87'
+- '11'
+- Single
+- '10'
+- '10'
+- Single
+- '2'
+- '8'
+- '0'
+- '3'
+- '0'
+- '0'
+- '0'
+- '0'
+- '0'
+- '0'
+- '1'
+- '4.2'
+- '5'
+- '5.5'
+- '300'
+- '-20'
+- '85'
+- Tray
+- '100'
+- QFP
+- PQFP
+- 'No'
+- Surface Mount
+- '2.8'
+- '20'
+- '14'
+- '100'
+- Gull-wing
+img: M30624FGAFPU3.jpg
+---

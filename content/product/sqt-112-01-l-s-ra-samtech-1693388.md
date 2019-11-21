@@ -1,0 +1,79 @@
+---
+type: Electromechanical
+vendor: SAMTEC
+title: SQT-112-01-L-S-RA SAMTECH
+model: CONN RCPT 12P 0.079 GOLD PCB R/A
+left-cols:
+- Categories
+- 　
+- Manufacturer
+- Series
+- Packaging 
+- Part Status
+- Connector Type
+- Contact Type
+- Style
+- Number of Positions
+- Number of Positions Loaded
+- Pitch - Mating
+- Number of Rows
+- Row Spacing - Mating
+- Mounting Type
+- Termination
+- Fastening Type
+- Contact Finish - Mating
+- Contact Finish Thickness - Mating
+- Insulation Color
+- Insulation Height
+- Contact Length - Post
+- Operating Temperature
+- Material Flammability Rating
+- Contact Finish - Post
+- Mated Stacking Heights
+- Ingress Protection
+- Features
+- Current Rating
+- Voltage Rating
+- Applications
+- Insulation Material
+- Contact Shape
+- Contact Material
+- Contact Finish Thickness - Post
+right-cols:
+- Connectors, Interconnects
+- Rectangular Connectors - Headers, Receptacles, Female Sockets
+- Samtec Inc.
+- SQT
+- Bulk 
+- Active
+- Receptacle
+- Forked
+- Board to Board or Cable
+- '12'
+- All
+- 0.079" (2.00mm)
+- '1'
+- '-'
+- Through Hole, Right Angle
+- Solder
+- Push-Pull
+- Gold
+- 10.0µin (0.25µm)
+- Black
+- 0.079" (2.00mm)
+- 0.090" (2.29mm)
+- -55°C ~ 125°C
+- UL94 V-0
+- Tin
+- '-'
+- '-'
+- '-'
+- 5.1A per Contact
+- 450VAC
+- '-'
+- Liquid Crystal Polymer (LCP)
+- Square
+- Phosphor Bronze
+- '-'
+img: SQT-112-01-L-S-RA.jpg
+---
