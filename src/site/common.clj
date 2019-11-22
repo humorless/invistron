@@ -58,6 +58,13 @@
          :entry
          :content)]])
 
+(defn add-product-title
+  "extract the title related content and add to page"
+  [data]
+  (let [title (-> data :entry :title)]
+    [:h2.text-center.text-md-left.text-primary.mb-6.mb-lg-8
+      title]))
+
 (defn add-breadcrumb
   "extract the breadcrumb related content"
   [data]
@@ -132,7 +139,7 @@
    (create-navigation)
    [:section.py-8.pt-md-11.border-bottom
      [:div.container
-       (add-breadcrumb data)
+       (add-product-title data)
        [:div.row.align-items-center
          (add-image data)
          (add-table data)]]]
