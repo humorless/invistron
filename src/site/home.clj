@@ -29,13 +29,13 @@
     [:div {:id "carouselExampleControls", :class "carousel slide", :data-ride "carousel"}
      [:div {:class "carousel-inner"}
       [:div {:class "carousel-item active"}
-       [:img {:class "d-block w-100", :src "/assets/images/carousel/MF.png" , :alt "First slide"}]]
+       [:img {:class "d-block w-100", :src "/assets/images/carousel/M01.jpg" , :alt "First slide"}]]
       [:div {:class "carousel-item"}
-       [:img {:class "d-block w-100", :src "/assets/images/carousel/MF2.png", :alt "Second slide"}]]
+       [:img {:class "d-block w-100", :src "/assets/images/carousel/M02.jpg", :alt "Second slide"}]]
       [:div {:class "carousel-item"}
-       [:img {:class "d-block w-100", :src "/assets/images/carousel/MF3.png", :alt "Third slide"}]]
+       [:img {:class "d-block w-100", :src "/assets/images/carousel/M03.jpg", :alt "Third slide"}]]
       [:div {:class "carousel-item"}
-       [:img {:class "d-block w-100", :src "/assets/images/carousel/MF4.png", :alt "Third slide"}]]]
+       [:img {:class "d-block w-100", :src "/assets/images/carousel/M04.jpg", :alt "Third slide"}]]]
      [:a {:class "carousel-control-prev", :href "#carouselExampleControls", :role "button", :data-slide "prev"}
       [:span {:class "carousel-control-prev-icon", :aria-hidden "true"}]
       [:span {:class "sr-only"} "Previous"]]
