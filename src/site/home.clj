@@ -26,7 +26,7 @@
    [:div.container
     [:h2.text-center.text-primary.mb-6.mb-lg-8
             "MAJOR LINE"]
-    [:div {:id "carouselExampleControls", :class "carousel slide", :data-ride "carousel"}
+    [:div {:id "carouselExampleControls", :class "carousel slide", :data-ride "carousel" :data-interval "2000"}
      [:div {:class "carousel-inner"}
       [:div {:class "carousel-item active"}
        [:img {:class "d-block w-100", :src "/assets/images/carousel/M01.jpg" , :alt "First slide"}]]
