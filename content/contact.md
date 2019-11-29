@@ -17,7 +17,7 @@
         <div class="col">
             <h2>Details</h2>
             <p>
-            Owner: Jessie Wu <br/>
+            Invistron Co., Ltd.<br/>
             Email: jessie@invistron.com.tw <br/>
             Business Phone Number: +886-2-25559787  <br/>
             Company Fax Number: +886-2-25559618  <br/>
