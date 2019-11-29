@@ -4,9 +4,9 @@
       <div class="row">
         <div class="col">
           <h2>Enquiries</h2>
-          <form action="action_page.php">
+          <form id="invistronForm" action="https://hooks.zapier.com/hooks/catch/6191107/o6dy2h3/" type="POST">
             <div><label for="fname">Company Name</label></div>
-            <div><input class="form-control" type="text" id="cname" name="cname" placeholder="Company Name..."></div>
+            <div><input class="form-control" type="text" id="cname" name="cname" placeholder="Company Name & Email..."></div>
             <div><label for="message">Message</label></div>
             <div>
               <textarea class="form-control" id="subject" name="subject" placeholder="Write something.." style="height:200px">
