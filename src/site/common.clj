@@ -28,7 +28,7 @@
              "Product"]
          [:div.dropdown-menu
            {:aria-labelledby "productNavbar"}
-             [:a.dropdown-item {:href "/all-products.html"} "All Products"]
+             [:a.dropdown-item.text-dark {:href "/all-products.html"} [:b "All Products"]]
              [:a.dropdown-item {:href "/active.html"} "Active Parts"]
              [:a.dropdown-item {:href "/passive.html"} "Passive Components"]
              [:a.dropdown-item {:href "/electromechanical.html"} "Electromechanical"]
