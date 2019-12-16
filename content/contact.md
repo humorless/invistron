@@ -4,12 +4,16 @@
       <div class="row">
         <div class="col">
           <h2>Enquiries</h2>
-          <form id="invistronForm" action="https://hooks.zapier.com/hooks/catch/6191107/o6dy2h3/" type="POST">
+          <form id="invistronForm" action="https://formspree.io/humorless@gmail.com" method="POST">
+            <input type="hidden" name="_subject" value="Enquiry from website">
+            <input type="hidden" name="_next" value="contact.html">
             <div><label for="fname">Company Name</label></div>
-            <div><input class="form-control" type="text" id="cname" name="cname" placeholder="Company Name & Email..."></div>
+            <div><input class="form-control" name="Name" type="text" placeholder="Your Name"></div>
+            <div><label for="fEmail">Email</label></div>
+            <div><input class="form-control" name="_replyto" type="email" placeholder="Your Email"></div>
             <div><label for="message">Message</label></div>
             <div>
-              <textarea class="form-control" id="subject" name="subject" placeholder="Write something.." style="height:200px">
+              <textarea class="form-control" id="subject" name="message" placeholder="Write something.." style="height:200px">
               </textarea></div>
             <input type="submit" class="btn btn-primary lift" value="Submit">
           </form>
