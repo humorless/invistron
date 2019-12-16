@@ -24,8 +24,7 @@
   []
   [:section.pt-4.pt-md-11
    [:div.container
-    [:h2.text-center.text-primary.mb-6.mb-lg-8
-            "MAJOR LINE"]
+    [:h2.text-center.text-primary.mb-6.mb-lg-8 "MAJOR LINE"]
     [:div {:id "carouselExampleControls", :class "carousel slide", :data-ride "carousel" :data-interval "2000"}
      [:div {:class "carousel-inner"}
       [:div {:class "carousel-item active"}
@@ -48,6 +47,7 @@
   []
   [:section.py-8.py-md-11.border-bottom
     [:div.container
+      [:h2.text-center.text-primary.mb-6.mb-lg-8 "Our Service"]
       [:div.row
         [:div.col-12.col-md-4
           [:div.icon.text-primary.mb-3
