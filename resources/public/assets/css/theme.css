@@ -4945,7 +4945,9 @@ a.close.disabled {
 .carousel-item.active,
 .carousel-item-next,
 .carousel-item-prev {
-  display: block; }
+  display: block;
+  height: 532px;
+  min-height: 532px;}
 
 .carousel-item-next:not(.carousel-item-left),
 .active.carousel-item-right {
