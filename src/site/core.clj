@@ -43,10 +43,10 @@
   (conj (create-head title)
     [:link
       {:rel "stylesheet"
-       :href "https://cdn.datatables.net/v/dt/dt-1.10.20/datatables.min.css"}]
+       :href "https://cdn.datatables.net/v/dt/dt-1.10.20/r-2.2.3/rg-1.1.1/datatables.min.css"}]
     [:script
       {:type "text/javascript"
-       :src "https://cdn.datatables.net/v/dt/dt-1.10.20/datatables.min.js"}]))
+       :src "https://cdn.datatables.net/v/dt/dt-1.10.20/r-2.2.3/rg-1.1.1/datatables.min.js"}]))
 
 (defn home-page
   "the home page renderer"
@@ -94,7 +94,16 @@
      (common/create-footer)
      [:script {:type "text/javascript"}
        "$(document).ready( function () {
-         $('#product-table').DataTable( {responsive: true} );
+         $('#product-table').DataTable({
+           responsive: true,
+           rowGroup: {
+             startRender: null,
+             endRender: function ( rows, group) {
+               return group + ' (' + rows.count() + ')';
+             },
+             dataSrc: 1
+           }
+         });
        } );"]]))
 
 
