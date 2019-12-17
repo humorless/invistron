@@ -94,17 +94,36 @@
      (common/create-footer)
      [:script {:type "text/javascript"}
        "$(document).ready( function () {
-         $('#product-table').DataTable({
+         var collapsedGroups = {};
+
+         var table = $('#product-table').DataTable({
            responsive: true,
+           pageLength: 2000,
+           order: [[1, 'asc']],
            rowGroup: {
-             startRender: null,
-             endRender: function ( rows, group) {
-               return group + ' (' + rows.count() + ')';
+             startRender: function (rows, group) {
+               var collapsed = !collapsedGroups[group];
+               console.log('group is:', group);
+               rows.nodes().each(function (r) {
+                 r.style.display =  collapsed ? 'none': '';
+               })
+               // Add category name to the <tr>. NOTE: Hardcoded colspan
+               return $('<tr/>')
+                .append('<td>' + group + ' (' + rows.count() + ')</td>')
+                .attr('data-name', group)
+                .toggleClass('collapsed', collapsed);
              },
              dataSrc: 1
            }
          });
-       } );"]]))
+
+         $('#product-table tbody').on('click', 'tr.dtrg-group', function () {
+           var name = $(this).data('name');
+           console.log('click name is:', name);
+           collapsedGroups[name] = !collapsedGroups[name];
+           table.draw(false);
+         });
+        });"]]))
 
 
 (defn load-bootstrap-js
