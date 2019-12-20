@@ -43,10 +43,10 @@
   (conj (create-head title)
     [:link
       {:rel "stylesheet"
-       :href "https://cdn.datatables.net/v/dt/dt-1.10.20/r-2.2.3/rg-1.1.1/datatables.min.css"}]
+       :href "https://cdn.datatables.net/v/dt/dt-1.10.20/b-1.6.1/r-2.2.3/rg-1.1.1/datatables.min.css"}]
     [:script
       {:type "text/javascript"
-       :src "https://cdn.datatables.net/v/dt/dt-1.10.20/r-2.2.3/rg-1.1.1/datatables.min.js"}]))
+       :src "https://cdn.datatables.net/v/dt/dt-1.10.20/b-1.6.1/r-2.2.3/rg-1.1.1/datatables.min.js"}]))
 
 (defn home-page
   "the home page renderer"
@@ -73,6 +73,25 @@
             (create-head "Invistron")
             [:body.bg-light (common/create-per-product-main-content data)]))
 
+
+(def active? (comp #(= % "Active Parts") :type))
+(def passive? (comp #(= % "Passive Components") :type))
+(def electro? (comp #(= % "Electromechanical") :type))
+(def wireless? (comp #(= % "Wireless Technologies") :type))
+(def led? (comp #(= % "LED") :type))
+(def power? (comp #(= % "Power Solution") :type))
+
+(defn create-category-option [css-id category-name selector entries]
+  [:li.dropdown
+    [:button.btn-success.btn-sm
+      {:id css-id :data-toggle "dropdown"
+       :aria-haspopup true :aria-expanded false}
+       category-name]
+    [:div.dropdown-menu
+      {:aria-labelledby css-id}
+      (let [vendors (distinct (map :vendor (filter selector entries)))]
+        (for [v vendors] [:a.dropdown-item v]))]])
+
 (defn product-page [{global-meta :meta entries :entries}]
   (hp/html5 {:lang "en" :itemtype "http://schema.org/Blog"}
     (create-product-head "Invistron")
@@ -80,49 +99,40 @@
      (common/create-navigation)
      [:section.py-8.pt-md-11.border-bottom
       [:div.container
-       [:table#product-table.display
-        [:thead
-         [:tr
-          [:th "Category"] [:th "Manufacturer"] [:th "Parts No"] [:th "Description"]]]
-        [:tbody
-         (for [entry entries]
-            [:tr
-              [:td (:type entry)]
-              [:td (:vendor entry)]
-              [:td [:a {:href (str "product/" (:slug entry) ".html")} (:title entry)]]
-              [:td (:model entry)]])]]]]
+       [:div.row
+         [:div.col
+           [:h2 "Category"]
+             [:ul
+               (create-category-option "activeOpt" "Active Parts" active? entries)
+               (create-category-option "passiveOpt" "Passive Components" passive? entries)
+               (create-category-option "electOpt" "Electromechanical" electro? entries)
+               (create-category-option "wirelessOpt" "Wireless Technologis" wireless? entries)
+               (create-category-option "ledOpt" "LED" led? entries)
+               (create-category-option "powerOpt" "Power Solution" power? entries)]]
+         [:table#product-table.display.col
+          [:thead
+           [:tr
+            [:th "Category"] [:th "Manufacturer"] [:th "Parts No"] [:th "Description"]]]
+          [:tbody
+           (for [entry entries]
+              [:tr
+                [:td (:type entry)]
+                [:td (:vendor entry)]
+                [:td [:a {:href (str "product/" (:slug entry) ".html")} (:title entry)]]
+                [:td (:model entry)]])]]]]]
      (common/create-footer)
      [:script {:type "text/javascript"}
        "$(document).ready( function () {
-         var collapsedGroups = {};
 
          var table = $('#product-table').DataTable({
            responsive: true,
-           pageLength: 2000,
            order: [[1, 'asc']],
-           rowGroup: {
-             startRender: function (rows, group) {
-               var collapsed = !collapsedGroups[group];
-               console.log('group is:', group);
-               rows.nodes().each(function (r) {
-                 r.style.display =  collapsed ? 'none': '';
-               })
-               // Add category name to the <tr>. NOTE: Hardcoded colspan
-               return $('<tr/>')
-                .append('<td>' + group + ' (' + rows.count() + ')</td>')
-                .attr('data-name', group)
-                .toggleClass('collapsed', collapsed);
-             },
-             dataSrc: 1
-           }
+           columnDefs: [{
+             targets: [0, 1],
+             visible: false
+           }]
          });
 
-         $('#product-table tbody').on('click', 'tr.dtrg-group', function () {
-           var name = $(this).data('name');
-           console.log('click name is:', name);
-           collapsedGroups[name] = !collapsedGroups[name];
-           table.draw(false);
-         });
         });"]]))
 
 
