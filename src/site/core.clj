@@ -83,14 +83,16 @@
 
 (defn create-category-option [css-id category-name selector entries]
   [:li.dropdown
-    [:button.btn-success.btn-sm
+    [:button.btn-success.btn-sm.ItemType
       {:id css-id :data-toggle "dropdown"
-       :aria-haspopup true :aria-expanded false}
+       :aria-haspopup true :aria-expanded false
+       :data-name category-name}
        category-name]
     [:div.dropdown-menu
       {:aria-labelledby css-id}
       (let [vendors (distinct (map :vendor (filter selector entries)))]
-        (for [v vendors] [:a.dropdown-item v]))]])
+        (for [v vendors]
+          [:a.dropdown-item [:button.btn-sm.ItemVendor {:data-name v} v]]))]])
 
 (defn product-page [{global-meta :meta entries :entries}]
   (hp/html5 {:lang "en" :itemtype "http://schema.org/Blog"}
@@ -122,7 +124,36 @@
                 [:td (:model entry)]])]]]]]
      (common/create-footer)
      [:script {:type "text/javascript"}
-       "$(document).ready( function () {
+       "var typeSel = null;
+        var vendorSel = null;
+        var rowMatch = function(type, vendor) {
+          if (typeSel && !vendorSel) {
+            if(type === typeSel) {
+              return true;
+            } else {
+              return false;
+            }
+          }
+          if (typeSel && vendorSel) {
+            if(type === typeSel && vendor === vendorSel) {
+              return true;
+            } else {
+              return false;
+            }
+          }
+          return true;
+        }
+
+        $.fn.dataTable.ext.search.push(
+          function( settings, data, dataIndex) {
+            if (rowMatch(data[0], data[1])) {
+              return true;
+            }
+            return false;
+          }
+        );
+
+        $(document).ready( function () {
 
          var table = $('#product-table').DataTable({
            responsive: true,
@@ -131,6 +162,23 @@
              targets: [0, 1],
              visible: false
            }]
+         });
+
+         $('button.ItemType').on('click', function () {
+           var name = $(this).data('name');
+           typeSel = name;
+           vendorSel = null;
+           console.log('Debugging info - typeSel: ', typeSel);
+           console.log('Debugging info - vendorSel: ', vendorSel);
+           table.draw(false);
+         });
+
+         $('button.ItemVendor').on('click', function () {
+           var name = $(this).data('name');
+           vendorSel = name;
+           console.log('Debugging info - typeSel: ', typeSel);
+           console.log('Debugging info - vendorSel: ', vendorSel);
+           table.draw(false);
          });
 
         });"]]))
