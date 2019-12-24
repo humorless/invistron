@@ -29,7 +29,7 @@
          [:div.dropdown-menu
            {:aria-labelledby "productNavbar"}
              [:a.dropdown-item.text-dark {:href "/all-products.html"} [:b "All Products"]]
-             ]]
+             [:a.dropdown-item.text-dark {:href "/linecard.html"} [:b "Line Cards"]]]]
        [:li.nav-item [:a.nav-link {:href "/news.html"} "News"]]
        [:li.nav-item [:a.nav-link {:href "/contact.html"} "Contact"]]]]]])
 

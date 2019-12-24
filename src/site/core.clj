@@ -73,58 +73,10 @@
             (create-head "Invistron")
             [:body.bg-light (common/create-per-product-main-content data)]))
 
-
-(def active? (comp #(= % "Active Parts") :type))
-(def passive? (comp #(= % "Passive Components") :type))
-(def electro? (comp #(= % "Electromechanical") :type))
-(def wireless? (comp #(= % "Wireless Technologies") :type))
-(def led? (comp #(= % "LED") :type))
-(def power? (comp #(= % "Power Solution") :type))
-
-(defn create-category-option [css-id category-name selector entries]
-  [:li.dropright
-    [:button.btn-success.btn-sm.ItemType
-      {:id css-id :data-toggle "dropdown"
-       :aria-haspopup true :aria-expanded false
-       :data-name category-name}
-       category-name]
-    [:div.dropdown-menu
-      {:aria-labelledby css-id}
-      (let [vendors (distinct (map :vendor (filter selector entries)))]
-        (for [v vendors]
-          [:a.dropdown-item [:button.btn-sm.ItemVendor {:data-name v} v]]))]])
-
-(defn product-page [{global-meta :meta entries :entries}]
-  (hp/html5 {:lang "en" :itemtype "http://schema.org/Blog"}
-    (create-product-head "Invistron")
-    [:body.bg-light
-     (common/create-navigation)
-     [:section.py-8.pt-md-11.border-bottom
-      [:div.container
-       [:div.row
-         [:div.col-md-4.col-12
-           [:h2 "Category"]
-             [:ul
-               (create-category-option "activeOpt" "Active Parts" active? entries)
-               (create-category-option "passiveOpt" "Passive Components" passive? entries)
-               (create-category-option "electOpt" "Electromechanical" electro? entries)
-               (create-category-option "wirelessOpt" "Wireless Technologies" wireless? entries)
-               (create-category-option "ledOpt" "LED" led? entries)
-               (create-category-option "powerOpt" "Power Solution" power? entries)]]
-         [:div.col-md-8.col-12
-           [:table#product-table.display
-            [:thead
-             [:tr
-              [:th "Category"] [:th "Manufacturer"] [:th "Parts No"] [:th "Description"]]]
-            [:tbody
-             (for [entry entries]
-                [:tr
-                  [:td (:type entry)]
-                  [:td (:vendor entry)]
-                  [:td [:a {:href (str "product/" (:slug entry) ".html")} (:title entry)]]
-                  [:td (:model entry)]])]]]]]]
-     (common/create-footer)
-     [:script {:type "text/javascript"}
+(defn add-jquery-enabler
+ ""
+ []
+ [:script {:type "text/javascript"}
        "var typeSel = null;
         var vendorSel = null;
         var rowMatch = function(type, vendor) {
@@ -182,7 +134,124 @@
            table.draw(false);
          });
 
-        });"]]))
+        });"])
+
+(def s-active "Active Parts")
+(def s-passive "Passive Components")
+(def s-electro "Electromechanical")
+(def s-wireless "Wireless Technologies")
+(def s-led "LED")
+(def s-power "Power Solution")
+
+;; (-> data :entry :active)
+;; (-> data :entry :passive)
+(defn make-entries
+  "change yaml data to entry"
+  [data type-keyword type-name]
+  (let [linecards (-> data :entry type-keyword)]
+    (for [line linecards]
+      (let [v (clojure.string/split line #"\.")]
+        {:type type-name :vendor (first v) :img line}))))
+
+(defn data->entries
+  "transform data to the entries data form"
+  [data]
+  (let [active-xs (make-entries data :active s-active)
+        passive-xs (make-entries data :passive s-passive)
+        entries (concat active-xs passive-xs)]
+    entries))
+
+(def active? (comp #(= % s-active) :type))
+(def passive? (comp #(= % s-passive) :type))
+(def electro? (comp #(= % s-electro) :type))
+(def wireless? (comp #(= % s-wireless) :type))
+(def led? (comp #(= % s-led) :type))
+(def power? (comp #(= % s-power) :type))
+
+(defn create-linecard-category-option [category-name]
+  [:li
+    [:button.btn-success.btn-sm.ItemType
+      {:data-name category-name}
+       category-name]])
+
+(defn linecard-page
+  "the linecard page renderer"
+  [data]
+  (let [entries (data->entries data)]
+    (hp/html5 {:lang "en"}
+      (create-product-head "Invistron")
+      [:body.bg-light
+       (common/create-navigation)
+       [:section.py-8.pt-md-11.border-bottom
+        [:div.container
+         [:div.row
+           [:div.col-md-4.col-12
+             [:h2 "Category"]
+               [:ul
+                 (create-linecard-category-option s-active)
+                 (create-linecard-category-option s-passive)
+                 (create-linecard-category-option s-electro)
+                 (create-linecard-category-option s-wireless)
+                 (create-linecard-category-option s-led)
+                 (create-linecard-category-option s-power)]]
+           [:div.col-md-8.col-12
+             [:table#product-table.display
+              [:thead
+               [:tr
+                [:th "Category"] [:th "Manufacturer"] [:th "Line Card"]]]
+              [:tbody
+               (for [entry entries]
+                  [:tr
+                    [:td (:type entry)]
+                    [:td (:vendor entry)]
+                    [:td (:vendor entry)]])]]]]]]
+       (common/create-footer)
+       (add-jquery-enabler)])))
+
+(defn create-category-option [css-id category-name selector entries]
+  [:li.dropright
+    [:button.btn-success.btn-sm.ItemType
+      {:id css-id :data-toggle "dropdown"
+       :aria-haspopup true :aria-expanded false
+       :data-name category-name}
+       category-name]
+    [:div.dropdown-menu
+      {:aria-labelledby css-id}
+      (let [vendors (distinct (map :vendor (filter selector entries)))]
+        (for [v vendors]
+          [:a.dropdown-item [:button.btn-sm.ItemVendor {:data-name v} v]]))]])
+
+(defn product-page [{global-meta :meta entries :entries}]
+  (hp/html5 {:lang "en" :itemtype "http://schema.org/Blog"}
+    (create-product-head "Invistron")
+    [:body.bg-light
+     (common/create-navigation)
+     [:section.py-8.pt-md-11.border-bottom
+      [:div.container
+       [:div.row
+         [:div.col-md-4.col-12
+           [:h2 "Category"]
+             [:ul
+               (create-category-option "activeOpt" s-active active? entries)
+               (create-category-option "passiveOpt" s-passive passive? entries)
+               (create-category-option "electOpt" s-electro electro? entries)
+               (create-category-option "wirelessOpt" s-wireless wireless? entries)
+               (create-category-option "ledOpt" s-led led? entries)
+               (create-category-option "powerOpt" s-power power? entries)]]
+         [:div.col-md-8.col-12
+           [:table#product-table.display
+            [:thead
+             [:tr
+              [:th "Category"] [:th "Manufacturer"] [:th "Parts No"] [:th "Description"]]]
+            [:tbody
+             (for [entry entries]
+                [:tr
+                  [:td (:type entry)]
+                  [:td (:vendor entry)]
+                  [:td [:a {:href (str "product/" (:slug entry) ".html")} (:title entry)]]
+                  [:td (:model entry)]])]]]]]]
+     (common/create-footer)
+     (add-jquery-enabler)]))
 
 
 (defn load-bootstrap-js

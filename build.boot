@@ -21,6 +21,7 @@
 (defn filter-builder [prefix] (comp #(str/starts-with? % prefix) :path))
 
 (def product? (filter-builder "public/product"))
+(def linecard? (comp #(= % true) :linecard))
 (def major? (comp #(= % true) :major))
 (def home? (comp #(= % true) :home))
 
@@ -35,6 +36,8 @@
                 :filterer (complement (some-fn product? home?)))
         (render :renderer 'site.core/per-product-page
                 :filterer product?)
+        (render :renderer 'site.core/linecard-page
+                :filterer linecard?)
         (collection :renderer 'site.core/product-page
                     :filterer product?
                     :sortby :path
