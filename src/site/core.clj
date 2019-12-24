@@ -82,7 +82,7 @@
 (def power? (comp #(= % "Power Solution") :type))
 
 (defn create-category-option [css-id category-name selector entries]
-  [:li.dropdown
+  [:li.dropright
     [:button.btn-success.btn-sm.ItemType
       {:id css-id :data-toggle "dropdown"
        :aria-haspopup true :aria-expanded false
@@ -108,7 +108,7 @@
                (create-category-option "activeOpt" "Active Parts" active? entries)
                (create-category-option "passiveOpt" "Passive Components" passive? entries)
                (create-category-option "electOpt" "Electromechanical" electro? entries)
-               (create-category-option "wirelessOpt" "Wireless Technologis" wireless? entries)
+               (create-category-option "wirelessOpt" "Wireless Technologies" wireless? entries)
                (create-category-option "ledOpt" "LED" led? entries)
                (create-category-option "powerOpt" "Power Solution" power? entries)]]
          [:div.col-md-8.col-12
