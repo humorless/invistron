@@ -102,7 +102,7 @@
      [:section.py-8.pt-md-11.border-bottom
       [:div.container
        [:div.row
-         [:div.col
+         [:div.col-md-4.col-12
            [:h2 "Category"]
              [:ul
                (create-category-option "activeOpt" "Active Parts" active? entries)
@@ -111,17 +111,18 @@
                (create-category-option "wirelessOpt" "Wireless Technologis" wireless? entries)
                (create-category-option "ledOpt" "LED" led? entries)
                (create-category-option "powerOpt" "Power Solution" power? entries)]]
-         [:table#product-table.display.col
-          [:thead
-           [:tr
-            [:th "Category"] [:th "Manufacturer"] [:th "Parts No"] [:th "Description"]]]
-          [:tbody
-           (for [entry entries]
-              [:tr
-                [:td (:type entry)]
-                [:td (:vendor entry)]
-                [:td [:a {:href (str "product/" (:slug entry) ".html")} (:title entry)]]
-                [:td (:model entry)]])]]]]]
+         [:div.col-md-8.col-12
+           [:table#product-table.display
+            [:thead
+             [:tr
+              [:th "Category"] [:th "Manufacturer"] [:th "Parts No"] [:th "Description"]]]
+            [:tbody
+             (for [entry entries]
+                [:tr
+                  [:td (:type entry)]
+                  [:td (:vendor entry)]
+                  [:td [:a {:href (str "product/" (:slug entry) ".html")} (:title entry)]]
+                  [:td (:model entry)]])]]]]]]
      (common/create-footer)
      [:script {:type "text/javascript"}
        "var typeSel = null;
