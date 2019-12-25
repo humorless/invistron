@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col">
           <h2>Enquiries</h2>
-          <form id="invistronForm" action="https://formspree.io/humorless@gmail.com" method="POST">
+          <form id="invistronForm" action="https://formspree.io/jessie@invistron.com.tw" method="POST">
             <input type="hidden" name="_subject" value="Enquiry from website">
             <input type="hidden" name="_next" value="contact.html">
             <div><label for="fname">Company Name</label></div>
