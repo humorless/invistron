@@ -157,9 +157,13 @@
 (defn data->entries
   "transform data to the entries data form"
   [data]
-  (let [active-xs (make-entries data :active s-active)
-        passive-xs (make-entries data :passive s-passive)
-        entries (concat active-xs passive-xs)]
+  (let [active-xs   (make-entries data :active s-active)
+        passive-xs  (make-entries data :passive s-passive)
+        electro-xs  (make-entries data :electro s-electro)
+        wireless-xs (make-entries data :wireless s-wireless)
+        led-xs      (make-entries data :led s-led)
+        power-xs    (make-entries data :power s-power)
+        entries (concat active-xs passive-xs electro-xs wireless-xs led-xs power-xs)]
     entries))
 
 (def active? (comp #(= % s-active) :type))
