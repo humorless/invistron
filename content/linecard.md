@@ -1,232 +1,235 @@
 ---
 linecard: true
 active:
-- ADESTO.png
-- ADI.png
-- AKM.png
-- ALLEGRO.jpg
-- ALPHA&OMEGA.jpg
-- AMD.jpg
-- AMS.png
-- ATMEL.jpg
-- BISON.jpg
-- BOTHHAND.png
-- BSI.png
-- CADDOCK.png
-- COMUS.jpg
-- CREE.png
-- CYPRESS.png
-- DENSITRON.jpg
-- EPSON.jpg
-- EXAR.png
-- FORMOSA MS.jpg
-- FTDI.jpg
-- FUJITSU.png
-- GENESYS.jpg
-- GW.png
-- HONEYWELL.png
-- INFINEON.png
-- INTERSIL.jpg
-- ISSI.png
-- IXYS.jpg
-- JMICRON.png
-- KEC.jpg
-- KINGSTON.jpg
-- KNOWLES.jpg
-- LATTICE.jpg
-- LINEAR.jpg
-- LITEON.png
-- LITTELFUSE.jpg
-- LRC.png
-- LYONTEK.jpg
-- MACOM.png
-- MACRONIX.jpg
-- MAGTEK.png
-- MAXIM.jpg
-- MCC.png
-- MICREL.jpg
-- MICROCHIP.jpg
-- MICRON.jpg
-- MPS.jpg
-- MURATA.png
-- NUVOTON.png
-- NXP.png
-- OHMITE.png
-- OKI.png
-- OMRON.jpg
-- ON-SEMI.png
-- OSRAM.png
-- PANASONIC.jpg
-- PANJIT.jpg
-- PEREGRINE.jpg
-- PG.jpg
-- PHOENIX.png
-- PROTEK.jpg
-- PULSE.png
-- REALTEK.png
-- RENESAS.jpg
-- RFMD.jpg
-- ROHM.png
-- SAMSUNG.jpg
-- SANKEN.jpg
-- SEMTECH.jpg
-- SHARP.jpg
-- SHINDENGEN.jpg
-- SII.png
-- SILICON LAB.png
-- SIPEX.png
-- SKYWORKS.png
-- SMSC.jpg
-- SONY.jpg
-- ST.jpg
-- STANLEY.png
-- TAIWAN SEMICONDUCTOR.jpg
-- TDK.png
-- TERIDIAN.jpg
-- THAT CORPORATION.jpg
-- TI.png
-- TOSHIBA.jpg
-- TRANSCEND.png
-- UTC.png
-- VISHAY.png
-- VTI.jpg
-- WINBOND.png
-- Wolfson.jpg
-- XILINX.png
-- XP POWER.png
-- ZARLINK.png
-- ZETTLER.png
+- img: ADESTO.png
+  href: https://www.adestotech.com/
+- img: ADI.png
+  href: https://www.analog.com/
+- img: AKM.png
+- img: ALLEGRO.jpg
+- img: ALPHA&OMEGA.jpg
+- img: AMD.jpg
+- img: AMS.png
+- img: ATMEL.jpg
+- img: BISON.jpg
+- img: BOTHHAND.png
+- img: BSI.png
+- img: CADDOCK.png
+- img: COMUS.jpg
+- img: CREE.png
+- img: CYPRESS.png
+- img: DENSITRON.jpg
+- img: EPSON.jpg
+- img: EXAR.png
+- img: FORMOSA MS.jpg
+- img: FTDI.jpg
+- img: FUJITSU.png
+- img: GENESYS.jpg
+- img: GW.png
+- img: HONEYWELL.png
+- img: INFINEON.png
+- img: INTERSIL.jpg
+- img: ISSI.png
+- img: IXYS.jpg
+- img: JMICRON.png
+- img: KEC.jpg
+- img: KINGSTON.jpg
+- img: KNOWLES.jpg
+- img: LATTICE.jpg
+- img: LINEAR.jpg
+- img: LITEON.png
+- img: LITTELFUSE.jpg
+- img: LRC.png
+- img: LYONTEK.jpg
+- img: MACOM.png
+- img: MACRONIX.jpg
+- img: MAGTEK.png
+- img: MAXIM.jpg
+- img: MCC.png
+- img: MICREL.jpg
+- img: MICROCHIP.jpg
+- img: MICRON.jpg
+- img: MPS.jpg
+- img: MURATA.png
+- img: NUVOTON.png
+- img: NXP.png
+- img: OHMITE.png
+- img: OKI.png
+- img: OMRON.jpg
+- img: ON-SEMI.png
+- img: OSRAM.png
+- img: PANASONIC.jpg
+- img: PANJIT.jpg
+- img: PEREGRINE.jpg
+- img: PG.jpg
+- img: PHOENIX.png
+- img: PROTEK.jpg
+- img: PULSE.png
+- img: REALTEK.png
+- img: RENESAS.jpg
+- img: RFMD.jpg
+- img: ROHM.png
+- img: SAMSUNG.jpg
+- img: SANKEN.jpg
+- img: SEMTECH.jpg
+- img: SHARP.jpg
+- img: SHINDENGEN.jpg
+- img: SII.png
+- img: SILICON LAB.png
+- img: SIPEX.png
+- img: SKYWORKS.png
+- img: SMSC.jpg
+- img: SONY.jpg
+- img: ST.jpg
+- img: STANLEY.png
+- img: TAIWAN SEMICONDUCTOR.jpg
+- img: TDK.png
+- img: TERIDIAN.jpg
+- img: THAT CORPORATION.jpg
+- img: TI.png
+- img: TOSHIBA.jpg
+- img: TRANSCEND.png
+- img: UTC.png
+- img: VISHAY.png
+- img: VTI.jpg
+- img: WINBOND.png
+- img: Wolfson.jpg
+- img: XILINX.png
+- img: XP POWER.png
+- img: ZARLINK.png
+- img: ZETTLER.png
 passive:
-- ABRACON.jpg
-- ALPS.png
-- AVX.png
-- BELFUSE.jpg
-- BOURNS.png
-- BUSSMANN.jpg
-- CARDINAL.jpg
-- CENTRAL.jpg
-- COILCRAFT.jpg
-- COMAR.png
-- CTSTusonix.jpg
-- DACO.png
-- DB.jpg
-- ELNA.jpg
-- EPSON.jpg
-- FAIR RITE.png
-- FASTRON.png
-- HALO.png
-- HEC.jpg
-- HILISIN.jpg
-- HITPOINT.png
-- JANTEK.png
-- JEC.jpg
-- JOHANSON.jpg
-- JOYIN.jpg
-- KDS.jpg
-- KEMET.png
-- KENDEIL.png
-- KINGCORE.jpg
-- KINGSTATE.jpg
-- KOA.png
-- KYOCERA.jpg
-- LAIRD.png
-- LELON.jpg
-- LITTELFUSE.jpg
-- MEC.jpg
-- MURATA.png
-- Nichicon.jpg
-- NIPPON CHEMI-CON.jpg
-- PANASONIC.jpg
-- PDC.jpg
-- PROTEK.jpg
-- PULSE.png
-- ROHM.png
-- SAMSUNG.jpg
-- SCHAFFNER.png
-- SJK.jpg
-- SMI.jpg
-- SOSHIN.jpg
-- SUMIDA.png
-- TAITIEN.png
-- TAIYO.jpg
-- TDK.png
-- TECSTAR.jpg
-- TKS.png
-- TXC.jpg
-- VIKING.jpg
-- VISHAY.png
-- Voltronic Power.png
-- WALSIN.jpg
-- WURTH.png
-- YAGEO.jpg
+- img: ABRACON.jpg
+- img: ALPS.png
+- img: AVX.png
+- img: BELFUSE.jpg
+- img: BOURNS.png
+- img: BUSSMANN.jpg
+- img: CARDINAL.jpg
+- img: CENTRAL.jpg
+- img: COILCRAFT.jpg
+- img: COMAR.png
+- img: CTSTusonix.jpg
+- img: DACO.png
+- img: DB.jpg
+- img: ELNA.jpg
+- img: EPSON.jpg
+- img: FAIR RITE.png
+- img: FASTRON.png
+- img: HALO.png
+- img: HEC.jpg
+- img: HILISIN.jpg
+- img: HITPOINT.png
+- img: JANTEK.png
+- img: JEC.jpg
+- img: JOHANSON.jpg
+- img: JOYIN.jpg
+- img: KDS.jpg
+- img: KEMET.png
+- img: KENDEIL.png
+- img: KINGCORE.jpg
+- img: KINGSTATE.jpg
+- img: KOA.png
+- img: KYOCERA.jpg
+- img: LAIRD.png
+- img: LELON.jpg
+- img: LITTELFUSE.jpg
+- img: MEC.jpg
+- img: MURATA.png
+- img: Nichicon.jpg
+- img: NIPPON CHEMI-CON.jpg
+- img: PANASONIC.jpg
+- img: PDC.jpg
+- img: PROTEK.jpg
+- img: PULSE.png
+- img: ROHM.png
+- img: SAMSUNG.jpg
+- img: SCHAFFNER.png
+- img: SJK.jpg
+- img: SMI.jpg
+- img: SOSHIN.jpg
+- img: SUMIDA.png
+- img: TAITIEN.png
+- img: TAIYO.jpg
+- img: TDK.png
+- img: TECSTAR.jpg
+- img: TKS.png
+- img: TXC.jpg
+- img: VIKING.jpg
+- img: VISHAY.png
+- img: Voltronic Power.png
+- img: WALSIN.jpg
+- img: WURTH.png
+- img: YAGEO.jpg
 electro:
-- 3M.png
-- ACON.png
-- ADAM-TECH.jpg
-- AMPHENOL.png
-- ARCOLECTRIC.jpg
-- AVX.png
-- AXON.png
-- BULGIN.png
-- C&K.jpg
-- CHERRY.jpg
-- CUI.jpg
-- CVILUX.jpg
-- CY.jpg
-- DAILYWELL.jpg
-- DINKLE.jpg
-- DIPTRONICS.jpg
-- E-SWITCH.jpg
-- FADDY.jpg
-- FEINMETALL.jpg
-- FERROXCUBE.jpg
-- HAMBURG.jpg
-- HIROSE.png
-- HITACHI.jpg
-- ITW.png
-- JAE.jpg
-- JST.jpg
-- KEYSTONE.jpg
-- KSS.jpg
-- KY.jpg
-- LCC.jpg
-- LITTELFUSE.jpg
-- MOLEX.jpg
-- OMRON.jpg
-- OUPIIN.png
-- PANASONIC.jpg
-- PG.jpg
-- PHOENIX.png
-- PRECI-DIP.jpg
-- Procon.png
-- RAYCHEM.jpg
-- SAMTEC.jpg
-- SAURO.jpg
-- SCG.jpg
-- SHINETSU.jpg
-- SHINMEI.jpg
-- SIMULA.jpg
-- SOCAY.png
-- SUNON.png
-- TE.jpg
-- WAGO.png
+- img: 3M.png
+  href: https://www.3m.com/
+- img: ACON.png
+- img: ADAM-TECH.jpg
+- img: AMPHENOL.png
+- img: ARCOLECTRIC.jpg
+- img: AVX.png
+- img: AXON.png
+- img: BULGIN.png
+- img: C&K.jpg
+- img: CHERRY.jpg
+- img: CUI.jpg
+- img: CVILUX.jpg
+- img: CY.jpg
+- img: DAILYWELL.jpg
+- img: DINKLE.jpg
+- img: DIPTRONICS.jpg
+- img: E-SWITCH.jpg
+- img: FADDY.jpg
+- img: FEINMETALL.jpg
+- img: FERROXCUBE.jpg
+- img: HAMBURG.jpg
+- img: HIROSE.png
+- img: HITACHI.jpg
+- img: ITW.png
+- img: JAE.jpg
+- img: JST.jpg
+- img: KEYSTONE.jpg
+- img: KSS.jpg
+- img: KY.jpg
+- img: LCC.jpg
+- img: LITTELFUSE.jpg
+- img: MOLEX.jpg
+- img: OMRON.jpg
+- img: OUPIIN.png
+- img: PANASONIC.jpg
+- img: PG.jpg
+- img: PHOENIX.png
+- img: PRECI-DIP.jpg
+- img: Procon.png
+- img: RAYCHEM.jpg
+- img: SAMTEC.jpg
+- img: SAURO.jpg
+- img: SCG.jpg
+- img: SHINETSU.jpg
+- img: SHINMEI.jpg
+- img: SIMULA.jpg
+- img: SOCAY.png
+- img: SUNON.png
+- img: TE.jpg
+- img: WAGO.png
 led:
-- EVERLIGHT.png
-- KINGBRIGHT.jpg
-- VISHAY.png
-- WURTH.png
+- img: EVERLIGHT.png
+- img: KINGBRIGHT.jpg
+- img: VISHAY.png
+- img: WURTH.png
 wireless:
-- MITSUBISHI.png
-- QUALCOMM.png
-- SILICON LAB.png
+- img: MITSUBISHI.png
+- img: QUALCOMM.png
+- img: SILICON LAB.png
 power:
-- APEC.jpg
-- ASTEC.png
-- CINCON.png
-- MEANWELL.png
-- MORNSUN.jpg
-- MURATA POWER.png
-- PANASONIC.jpg
-- PI.png
-- TRACO POWER.jpg
+- img: APEC.jpg
+- img: ASTEC.png
+- img: CINCON.png
+- img: MEANWELL.png
+- img: MORNSUN.jpg
+- img: MURATA POWER.png
+- img: PANASONIC.jpg
+- img: PI.png
+- img: TRACO POWER.jpg
 ---

@@ -150,9 +150,11 @@
   [data type-keyword type-name]
   (let [linecards (-> data :entry type-keyword)]
     (for [line linecards]
-      (let [v (clojure.string/split line #"\.")
+      (let [href (:href line)
+            img-name (:img line)
+            v (clojure.string/split img-name #"\.")
             dir (name type-keyword)]
-        {:type type-name :vendor (first v) :img (str dir "/" line)}))))
+        {:type type-name :vendor (first v) :img (str dir "/" img-name) :href href}))))
 
 (defn data->entries
   "transform data to the entries data form"
@@ -210,7 +212,8 @@
                   [:tr
                     [:td (:type entry)]
                     [:td (:vendor entry)]
-                    [:td [:img {:width "25%" :src (str "/assets/images/linecards/" (:img entry))}]]
+                    [:td [:a {:href (:href entry)}
+                           [:img {:width "25%" :src (str "/assets/images/linecards/" (:img entry))}]]]
                   ])]]]]]]
        (common/create-footer)
        (add-jquery-enabler)])))
