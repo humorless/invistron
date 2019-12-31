@@ -190,7 +190,8 @@
        [:section.py-8.pt-md-11.border-bottom
         [:div.container
          [:div.row
-           [:div.col-md-4.col-12
+           [:div.col-md-1.col-11]
+           [:div.col-md-4.col-11
              [:h2 "Category"]
                [:ul
                  (create-linecard-category-option s-active)
@@ -199,7 +200,7 @@
                  (create-linecard-category-option s-wireless)
                  (create-linecard-category-option s-led)
                  (create-linecard-category-option s-power)]]
-           [:div.col-md-8.col-12
+           [:div.col-md-6.col-12
              [:table#product-table.display
               [:thead
                [:tr
@@ -209,7 +210,7 @@
                   [:tr
                     [:td (:type entry)]
                     [:td (:vendor entry)]
-                    [:td [:img {:src (str "/assets/images/linecards/" (:img entry))}]]
+                    [:td [:img {:width "25%" :src (str "/assets/images/linecards/" (:img entry))}]]
                   ])]]]]]]
        (common/create-footer)
        (add-jquery-enabler)])))
@@ -235,7 +236,7 @@
      [:section.py-8.pt-md-11.border-bottom
       [:div.container
        [:div.row
-         [:div.col-md-4.col-12
+         [:div.col-md-5.col-12
            [:h2 "Category"]
              [:ul
                (create-category-option "activeOpt" s-active active? entries)
@@ -244,7 +245,7 @@
                (create-category-option "wirelessOpt" s-wireless wireless? entries)
                (create-category-option "ledOpt" s-led led? entries)
                (create-category-option "powerOpt" s-power power? entries)]]
-         [:div.col-md-8.col-12
+         [:div.col-md-7.col-12
            [:table#product-table.display
             [:thead
              [:tr
