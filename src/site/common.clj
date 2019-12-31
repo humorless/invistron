@@ -117,8 +117,7 @@
       ]]
      [:div.footer-copyright.text-center.py-3
        [:p.text-muted
-         [:a {:href "https://www.freepik.com/free-photos-vectors/technology"} "Pictures Credits"]
-         "|@ 2019 Copyright INVISTRON, Co. Ltd. All Rights Reserved"]]]])
+         "@2019 Copyright INVISTRON, Co. Ltd. All Rights Reserved"]]]])
 
 (defn create-main-content
   "This creates the main content of each page."
