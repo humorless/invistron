@@ -73,6 +73,26 @@
             (create-head "Invistron")
             [:body.bg-light (common/create-per-product-main-content data)]))
 
+(defn add-category-selector
+ ""
+ []
+ [:script {:type "text/javascript"}
+   "var typeSel = null;
+
+    var draw = function (typeSel) {
+      $('a.linecard').hide();
+      $('a.linecard').filter(typeSel).show();
+    }
+
+    $(document).ready( function () {
+      $('button.ItemType').on('click', function () {
+        var name = $(this).data('name');
+        typeSel = name;
+        console.log('Debugging info - typeSel: ', typeSel);
+        draw('.' + typeSel);
+      });
+    });"])
+
 (defn add-jquery-enabler
  ""
  []
@@ -175,10 +195,15 @@
 (def led? (comp #(= % s-led) :type))
 (def power? (comp #(= % s-power) :type))
 
+(defn ->one-word [sentence]
+  (->> (clojure.string/split sentence #" ")
+       (filter #(not (clojure.string/blank? %)))
+       (clojure.string/join "_")))
+
 (defn create-linecard-category-option [category-name]
   [:li
     [:button.btn-success.btn-sm.ItemType
-      {:data-name category-name}
+      {:data-name (->one-word category-name)}
        category-name]])
 
 (defn linecard-page
@@ -192,8 +217,7 @@
        [:section.py-8.pt-md-11.border-bottom
         [:div.container
          [:div.row
-           [:div.col-md-1.col-11]
-           [:div.col-md-4.col-11
+           [:div.col-md-4.col-12
              [:h2 "Category"]
                [:ul
                  (create-linecard-category-option s-active)
@@ -202,21 +226,14 @@
                  (create-linecard-category-option s-wireless)
                  (create-linecard-category-option s-led)
                  (create-linecard-category-option s-power)]]
-           [:div.col-md-6.col-12
-             [:table#product-table.display
-              [:thead
-               [:tr
-                [:th "Category"] [:th "Manufacturer"] [:th "Line Card"]]]
-              [:tbody
-               (for [entry entries]
-                  [:tr
-                    [:td (:type entry)]
-                    [:td (:vendor entry)]
-                    [:td [:a {:href (:href entry)}
-                           [:img {:width "25%" :src (str "/assets/images/linecards/" (:img entry))}]]]
-                  ])]]]]]]
+           [:div.col-md-8.col-12
+             (for [entry entries]
+               (let [category (->one-word (:type entry))]
+                 [:a.linecard {:href (:href entry) :class category}
+                   [:img {:width "20%" :src (str "/assets/images/linecards/" (:img entry))}]]))]
+           ]]]
        (common/create-footer)
-       (add-jquery-enabler)])))
+       (add-category-selector)])))
 
 (defn create-category-option [css-id category-name selector entries]
   [:li.dropright
