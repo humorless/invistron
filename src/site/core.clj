@@ -97,8 +97,8 @@
  ""
  []
  [:script {:type "text/javascript"}
-       "var typeSel = null;
-        var vendorSel = null;
+       "var typeSel = sessionStorage.getItem('typeSel');
+        var vendorSel = sessionStorage.getItem('vendorSel');
         var rowMatch = function(type, vendor) {
           if (typeSel && !vendorSel) {
             if(type === typeSel) {
@@ -141,6 +141,8 @@
            var name = $(this).data('name');
            typeSel = name;
            vendorSel = null;
+           sessionStorage.setItem('typeSel', name);
+           sessionStorage.removeItem('vendorSel');
            console.log('Debugging info - typeSel: ', typeSel);
            console.log('Debugging info - vendorSel: ', vendorSel);
            table.draw(false);
@@ -149,6 +151,7 @@
          $('button.ItemVendor').on('click', function () {
            var name = $(this).data('name');
            vendorSel = name;
+           sessionStorage.setItem('vendorSel', name);
            console.log('Debugging info - typeSel: ', typeSel);
            console.log('Debugging info - vendorSel: ', vendorSel);
            table.draw(false);
