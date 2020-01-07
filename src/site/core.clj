@@ -232,8 +232,8 @@
            [:div.col-md-8.col-12
              (for [entry entries]
                (let [category (->one-word (:type entry))]
-                 [:a.linecard {:href (:href entry) :class category}
-                   [:img {:width "20%" :src (str "/assets/images/linecards/" (:img entry))}]]))]
+                 [:a.linecard.mx-2 {:href (:href entry) :class category}
+                   [:img.py-2 {:width "20%" :src (str "/assets/images/linecards/" (:img entry))}]]))]
            ]]]
        (common/create-footer)
        (add-category-selector)])))
