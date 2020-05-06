@@ -6,7 +6,6 @@ model: DIODE VARACTOR 34V SINGLE ESC
 left-cols:
 - Product Attributes
 - Categories
-- Diodes - Variable Capacitance (Varicaps, Varactors)
 - Manufacturer
 - Series
 - Capacitance @ Vr, F
@@ -20,8 +19,8 @@ left-cols:
 - Package / Case
 - Supplier Device Package
 right-cols:
-- Select All
-- Discrete Semiconductor Products
+- Description
+- Discrete Semiconductor Products , Diodes - Variable Capacitance (Varicaps, Varactors)
 - Toshiba Semiconductor and Storage
 - '-'
 - 3pF @ 25V, 1MHz
@@ -34,5 +33,5 @@ right-cols:
 - Surface Mount
 - SC-79, SOD-523
 - ESC
-img: 1SV282TPH3-F.JPG
+img: 1SV282TPH3-F.jpg
 ---
