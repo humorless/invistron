@@ -6,7 +6,6 @@ model: DIODE SCHOTTKY 40V 1.5A SMA
 left-cols:
 - Product Attributes
 - Categories
-- Diodes - Rectifiers - Single
 - Manufacturer
 - Series
 - Diode Type
@@ -22,8 +21,8 @@ left-cols:
 - Operating Temperature - Junction
 - Base Part Number
 right-cols:
-- Select All
-- Discrete Semiconductor Products
+- Description
+- Discrete Semiconductor Products , Diodes - Rectifiers - Single
 - Vishay Semiconductor Diodes Division
 - '-'
 - Schottky
@@ -38,5 +37,5 @@ right-cols:
 - SMA
 - -40°C ~ 150°C
 - 15MQ040
-img: 15MQ040NTRPBF.JPG
+img: 15MQ040NTRPBF.jpg
 ---
