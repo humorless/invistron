@@ -6,7 +6,6 @@ model: EEPROM Memory IC 1Kb (128 x 8) SPI 10MHz 8-SOIC
 left-cols:
 - Product Attributes
 - Categories
-- Memory
 - Manufacturer
 - Series
 - Memory Type
@@ -23,8 +22,8 @@ left-cols:
 - Supplier Device Package
 - Base Part Number
 right-cols:
-- Select All
-- Integrated Circuits (ICs)
+- Description
+- Integrated Circuits (ICs) , Memory
 - Microchip Technology
 - '-'
 - Non-Volatile
