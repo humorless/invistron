@@ -5,7 +5,6 @@ title: 287003.PXCN LITTELFUSE
 model: FUSE AUTO 3A 32VDC BLADE
 left-cols:
 - Categories
-- Fuses
 - Manufacturer
 - Series
 - Packaging 
@@ -23,7 +22,7 @@ left-cols:
 - Color
 - Size / Dimension
 right-cols:
-- Circuit Protection
+- Circuit Protection , Fuses
 - Littelfuse Inc.
 - ATO®
 - Bulk 
