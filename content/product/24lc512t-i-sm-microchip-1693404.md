@@ -6,7 +6,6 @@ model: EEPROM Memory IC 512Kb (64K x 8) I²C 400kHz 900ns 8-SOIJ
 left-cols:
 - Product Attributes
 - Categories
-- Memory
 - Manufacturer
 - Series
 - Memory Type
@@ -24,8 +23,8 @@ left-cols:
 - Supplier Device Package
 - Base Part Number
 right-cols:
-- Select All
-- Integrated Circuits (ICs)
+- Description
+- Integrated Circuits (ICs) , Memory
 - Microchip Technology
 - '-'
 - Non-Volatile
