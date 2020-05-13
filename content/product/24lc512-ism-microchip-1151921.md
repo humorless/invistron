@@ -33,5 +33,5 @@ right-cols:
 - -40°C ~ 85°C (TA)
 - 8-SOIC (0.209", 5.30mm Width)
 - 8-SOIJ
-img: 24LC512-I-SM.PNG
+img: 24LC512-I-SM.png
 ---
