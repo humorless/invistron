@@ -6,7 +6,6 @@ model: IC MCU 32BIT 32KB FLASH 48VFBGA
 left-cols:
 - Product Attributes
 - Categories
-- Embedded - Microcontrollers
 - Manufacturer
 - Series
 - Core Processor
@@ -26,8 +25,8 @@ left-cols:
 - Package / Case
 - Supplier Device Package
 right-cols:
-- Select All
-- Integrated Circuits (ICs)
+- Description
+- Integrated Circuits (ICs) , Embedded - Microcontrollers
 - Silicon Labs
 - Tiny Gecko
 - ARM® Cortex®-M3
@@ -46,5 +45,5 @@ right-cols:
 - -40°C ~ 85°C (TA)
 - 48-VFBGA
 - 48-BGA (4x4)
-img: EFM32TG225F32.JPG
+img: EFM32TG225F32.jpg
 ---
