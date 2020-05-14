@@ -6,7 +6,6 @@ model: IC ETHERNET CTLR SPI 28SSOP
 left-cols:
 - Product Attributes
 - Categories
-- Interface - Controllers
 - Manufacturer
 - Series
 - Protocol
@@ -20,8 +19,8 @@ left-cols:
 - Supplier Device Package
 - Base Part Number
 right-cols:
-- Select All
-- Integrated Circuits (ICs)
+- Description
+- Integrated Circuits (ICs) , Interface - Controllers
 - Microchip Technology
 - '-'
 - Ethernet
