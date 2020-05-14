@@ -6,7 +6,6 @@ model: IC RF TXRX+MCU BLUETOOTH 96VFBGA
 left-cols:
 - Product Attributes
 - Categories
-- RF Transceiver ICs
 - Manufacturer
 - Series
 - Part Status
@@ -26,8 +25,8 @@ left-cols:
 - Operating Temperature
 - Package / Case
 right-cols:
-- Select All
-- RF/IF and RFID
+- Description
+- RF/IF and RFID , RF Transceiver ICs
 - Qualcomm
 - BlueCore®
 - Not For New Designs
