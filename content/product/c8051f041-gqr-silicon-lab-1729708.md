@@ -27,7 +27,7 @@ left-cols:
 - Supplier Device Package
 - Base Part Number
 right-cols:
-- Select All
+- Description
 - Integrated Circuits (ICs)
 - Silicon Labs
 - C8051F04x
