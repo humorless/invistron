@@ -6,7 +6,6 @@ model: DGTL ISO RS422/RS485 20SOIC
 left-cols:
 - Product Attributes
 - Categories
-- Digital Isolators
 - Manufacturer
 - Series
 - Technology
@@ -28,8 +27,8 @@ left-cols:
 - Supplier Device Package
 - Base Part Number
 right-cols:
-- Select All
-- Isolators
+- Description
+- Isolators , Digital Isolators
 - Analog Devices Inc.
 - IsoPower®, iCoupler®
 - Magnetic Coupling
@@ -50,5 +49,5 @@ right-cols:
 - 20-SOIC (0.295", 7.50mm Width)
 - 20-SOIC
 - ADM2587
-img: ADM2587EBRWZ.JPG
+img: ADM2587EBRWZ.jpg
 ---
