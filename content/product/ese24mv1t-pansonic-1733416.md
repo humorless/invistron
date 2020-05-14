@@ -59,5 +59,5 @@ right-cols:
 - '7.5'
 - '5.4'
 - '9.55'
-img: ESE24MV1T.jpg
+img: ESE24MV1T.png
 ---
