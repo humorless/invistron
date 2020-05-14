@@ -6,7 +6,6 @@ model: TVS DIODE 3.3V 11.5V SOD923
 left-cols:
 - Product Attributes
 - Categories
-- TVS - Diodes
 - Manufacturer
 - Series
 - Type
@@ -25,8 +24,8 @@ left-cols:
 - Supplier Device Package
 - Base Part Number
 right-cols:
-- Select All
-- Circuit Protection
+- Description
+- Circuit Protection , TVS - Diodes
 - ON Semiconductor
 - '-'
 - Zener
