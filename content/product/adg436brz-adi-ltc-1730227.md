@@ -6,7 +6,6 @@ model: IC SWITCH DUAL SPDT 16SOIC
 left-cols:
 - Product Attributes
 - Categories
-- Interface - Analog Switches, Multiplexers, Demultiplexers
 - Manufacturer
 - Series
 - Switch Circuit
@@ -27,8 +26,8 @@ left-cols:
 - Supplier Device Package
 - Base Part Number
 right-cols:
-- Select All
-- Integrated Circuits (ICs)
+- Description
+- Integrated Circuits (ICs) , Interface - Analog Switches, Multiplexers, Demultiplexers
 - Analog Devices Inc.
 - '-'
 - SPDT
@@ -48,5 +47,5 @@ right-cols:
 - 16-SOIC (0.154", 3.90mm Width)
 - 16-SOIC
 - ADG436
-img: ADG436BRZ.JPG
+img: ADG436BRZ.jpg
 ---
