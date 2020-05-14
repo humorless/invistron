@@ -6,7 +6,6 @@ model: CMC 100MA 6LN 32 OHM SMD ESD
 left-cols:
 - Product Attributes
 - Categories
-- Common Mode Chokes
 - Manufacturer
 - Series
 - Filter Type
@@ -25,8 +24,8 @@ left-cols:
 - Height (Max)
 - Package / Case
 right-cols:
-- Select All
-- Filters
+- Description
+- Filters , Common Mode Chokes
 - ON Semiconductor
 - EMI41
 - Signal Line
@@ -44,5 +43,5 @@ right-cols:
 - 0.157" L x 0.079" W (4.00mm x 2.00mm)
 - 0.032" (0.80mm)
 - 16-WFDFN
-img: EMI4193MTTAG.JPG
+img: EMI4193MTTAG.jpg
 ---
