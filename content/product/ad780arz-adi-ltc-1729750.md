@@ -6,7 +6,6 @@ model: IC VREF SERIES/SHUNT PROG 8SOIC
 left-cols:
 - Product Attributes
 - Categories
-- PMIC - Voltage Reference
 - Manufacturer
 - Series
 - Reference Type
@@ -26,8 +25,8 @@ left-cols:
 - Supplier Device Package
 - Base Part Number
 right-cols:
-- Select All
-- Integrated Circuits (ICs)
+- Description
+- Integrated Circuits (ICs) , PMIC - Voltage Reference
 - Analog Devices Inc.
 - '-'
 - Series, Shunt
@@ -46,5 +45,5 @@ right-cols:
 - 8-SOIC (0.154", 3.90mm Width)
 - 8-SOIC
 - AD780
-img: AD780ARZ.JPG
+img: AD780ARZ.jpg
 ---
