@@ -5,7 +5,6 @@ title: BLM41PG600SN1L　　MURATA
 model: FERRITE BEAD 60 OHM 1806 1LN
 left-cols:
 - Categories
-- Ferrite Beads and Chips
 - Manufacturer
 - Series
 - Packaging 
@@ -21,7 +20,7 @@ left-cols:
 - Height (Max)
 - Size / Dimension
 right-cols:
-- Filters
+- Filters , Ferrite Beads and Chips
 - Murata Electronics North America
 - EMIFIL®, BLM41
 - Tape & Reel (TR) 
