@@ -20,7 +20,7 @@ left-cols:
 - Supplier Device Package
 - Base Part Number
 right-cols:
-- Select All
+- Description
 - Integrated Circuits (ICs)
 - Silicon Labs
 - '-'
@@ -34,5 +34,5 @@ right-cols:
 - 28-VFQFN Exposed Pad
 - 28-QFN (5x5)
 - CP2102
-img: CP2102-GM.JPG
+img: CP2102-GM.jpg
 ---
