@@ -6,7 +6,6 @@ model: IC MULTIPLEXER 16X1 28SSOP
 left-cols:
 - Product Attributes
 - Categories
-- Interface - Analog Switches, Multiplexers, Demultiplexers
 - Manufacturer
 - Series
 - Switch Circuit
@@ -27,8 +26,8 @@ left-cols:
 - Supplier Device Package
 - Base Part Number
 right-cols:
-- Select All
-- Integrated Circuits (ICs)
+- Description
+- Integrated Circuits (ICs) , Interface - Analog Switches, Multiplexers, Demultiplexers
 - Analog Devices Inc.
 - '-'
 - '-'
@@ -48,5 +47,5 @@ right-cols:
 - 28-SSOP (0.209", 5.30mm Width)
 - 28-SSOP
 - ADG426
-img: ADG426BRSZ.JPG
+img: ADG426BRSZ.jpg
 ---
