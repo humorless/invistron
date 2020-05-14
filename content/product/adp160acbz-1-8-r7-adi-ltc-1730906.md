@@ -6,7 +6,6 @@ model: IC REG LINEAR 1.8V 150MA 4WLCSP
 left-cols:
 - Product Attributes
 - Categories
-- PMIC - Voltage Regulators - Linear
 - Manufacturer
 - Series
 - Output Configuration
@@ -28,8 +27,8 @@ left-cols:
 - Supplier Device Package
 - Base Part Number
 right-cols:
-- Select All
-- Integrated Circuits (ICs)
+- Description
+- Integrated Circuits (ICs) , PMIC - Voltage Regulators - Linear
 - Analog Devices Inc.
 - '-'
 - Positive
@@ -50,5 +49,5 @@ right-cols:
 - 4-UFBGA, WLCSP
 - 4-WLCSP (0.97x0.97)
 - ADP160
-img: ADP160ACBZ-1.8-R7.JPG
+img: ADP160ACBZ-1.8-R7.jpg
 ---
