@@ -5,7 +5,6 @@ title: AXK5S20047YG PANSONIC
 model: Conn Board to Board SKT 20 POS 0.5mm Solder ST SMD T/R
 left-cols:
 - Categories
-- Rectangular Connectors - Arrays, Edge Type, Mezzanine (Board to Board)
 - Manufacturer
 - Series
 - Packaging 
@@ -21,7 +20,7 @@ left-cols:
 - Mated Stacking Heights
 - Height Above Board
 right-cols:
-- Connectors, Interconnects
+- Connectors, Interconnects , Rectangular Connectors - Arrays, Edge Type, Mezzanine (Board to Board)
 - Panasonic Electric Works
 - P5KS
 - Tape & Reel (TR) 
