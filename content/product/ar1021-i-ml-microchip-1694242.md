@@ -6,7 +6,6 @@ model: IC SCREEN CNTRL 10BIT 20QFN
 left-cols:
 - Product Attributes
 - Categories
-- Data Acquisition - Touch Screen Controllers
 - Manufacturer
 - Series
 - Touchscreen
@@ -21,8 +20,8 @@ left-cols:
 - Supplier Device Package
 - Base Part Number
 right-cols:
-- Select All
-- Integrated Circuits (ICs)
+- Description
+- Integrated Circuits (ICs) , Data Acquisition - Touch Screen Controllers
 - Microchip Technology
 - mTouch™
 - 4, 5, or 8 Wire Resistive
