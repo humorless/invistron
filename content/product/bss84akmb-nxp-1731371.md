@@ -6,7 +6,6 @@ model: MOSFET P-CH 50V 230MA 3DFN
 left-cols:
 - Product Attributes
 - Categories
-- Transistors - FETs, MOSFETs - Single
 - Manufacturer
 - Series
 - FET Type
@@ -26,8 +25,8 @@ left-cols:
 - Supplier Device Package
 - Package / Case
 right-cols:
-- Select All
-- Discrete Semiconductor Products
+- Description
+- Discrete Semiconductor Products , Transistors - FETs, MOSFETs - Single
 - Nexperia USA Inc.
 - '-'
 - P-Channel
@@ -46,5 +45,5 @@ right-cols:
 - Surface Mount
 - DFN1006B-3
 - 3-XFDFN
-img: BSS84AKMB.JPG
+img: BSS84AKMB.jpg
 ---
