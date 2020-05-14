@@ -6,7 +6,6 @@ model: IC MULTIPLEXER 8X1 16TSSOP
 left-cols:
 - Product Attributes
 - Categories
-- Interface - Analog Switches, Multiplexers, Demultiplexers
 - Manufacturer
 - Series
 - Switch Circuit
@@ -27,8 +26,8 @@ left-cols:
 - Supplier Device Package
 - Base Part Number
 right-cols:
-- Select All
-- Integrated Circuits (ICs)
+- Description
+- Integrated Circuits (ICs) , Interface - Analog Switches, Multiplexers, Demultiplexers
 - Analog Devices Inc.
 - '-'
 - '-'
@@ -48,5 +47,5 @@ right-cols:
 - 16-TSSOP (0.173", 4.40mm Width)
 - 16-TSSOP
 - ADG608
-img: ADG608BRUZ.JPG
+img: ADG608BRUZ.jpg
 ---
