@@ -5,7 +5,6 @@ title: 466002.NRHF LITTLEFUSE
 model: FUSE BOARD MNT 2A 63VAC/VDC 1206
 left-cols:
 - Categories
-- Fuses
 - Manufacturer
 - Series
 - Packaging 
@@ -23,7 +22,7 @@ left-cols:
 - Operating Temperature
 - Color
 right-cols:
-- Circuit Protection
+- Circuit Protection , Fuses
 - Littelfuse Inc.
 - SlimLine™ 466
 - Tape & Reel (TR) 
