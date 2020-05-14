@@ -6,7 +6,6 @@ model: IC PLL FREQ SYNTHESIZER 16-TSSOP
 left-cols:
 - Product Attributes
 - Categories
-- Clock/Timing - Clock Generators, PLLs, Frequency Synthesizers
 - Manufacturer
 - Series
 - Type
@@ -25,8 +24,8 @@ left-cols:
 - Supplier Device Package
 - Base Part Number
 right-cols:
-- Select All
-- Integrated Circuits (ICs)
+- Description
+- Integrated Circuits (ICs) , Clock/Timing - Clock Generators, PLLs, Frequency Synthesizers
 - Analog Devices Inc.
 - '-'
 - Clock/Frequency Synthesizer (RF)
@@ -44,5 +43,5 @@ right-cols:
 - 16-TSSOP (0.173", 4.40mm Width)
 - 16-TSSOP
 - ADF4111
-img: ADF4111BRUZ.JPG
+img: ADF4111BRUZ.jpg
 ---
