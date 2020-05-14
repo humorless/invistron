@@ -6,7 +6,6 @@ model: IC SUPER MPU 4.65 250MA 16SOIC
 left-cols:
 - Product Attributes
 - Categories
-- PMIC - Supervisors
 - Manufacturer
 - Series
 - Type
@@ -21,8 +20,8 @@ left-cols:
 - Supplier Device Package
 - Base Part Number
 right-cols:
-- Select All
-- Integrated Circuits (ICs)
+- Description
+- Integrated Circuits (ICs) , PMIC - Supervisors
 - Analog Devices Inc.
 - '-'
 - Battery Backup Circuit
@@ -36,5 +35,5 @@ right-cols:
 - 16-SOIC (0.295", 7.50mm Width)
 - 16-SOIC
 - ADM691
-img: ADM691ARZ.JPG
+img: ADM691ARZ.jpg
 ---
