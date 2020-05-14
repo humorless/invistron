@@ -6,7 +6,6 @@ model: TRANS 2NPN 45V 0.1A SOT363
 left-cols:
 - Product Attributes
 - Categories
-- Transistors - Bipolar (BJT) - Arrays
 - Manufacturer
 - Series
 - Transistor Type
@@ -23,8 +22,8 @@ left-cols:
 - Supplier Device Package
 - Base Part Number
 right-cols:
-- Select All
-- Discrete Semiconductor Products
+- Description
+- Discrete Semiconductor Products , Transistors - Bipolar (BJT) - Arrays
 - ON Semiconductor
 - '-'
 - 2 NPN (Dual)
