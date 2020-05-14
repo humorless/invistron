@@ -6,7 +6,6 @@ model: IC ADC 2CH 24BIT W/PGA 24TSSOP
 left-cols:
 - Product Attributes
 - Categories
-- Data Acquisition - Analog to Digital Converters (ADC)
 - Manufacturer
 - Series
 - Number of Bits
@@ -27,8 +26,8 @@ left-cols:
 - Supplier Device Package
 - Base Part Number
 right-cols:
-- Select All
-- Integrated Circuits (ICs)
+- Description
+- Integrated Circuits (ICs) , Data Acquisition - Analog to Digital Converters (ADC)
 - Analog Devices Inc.
 - '-'
 - '24'
@@ -48,5 +47,5 @@ right-cols:
 - 24-TSSOP (0.173", 4.40mm Width)
 - 24-TSSOP
 - AD7190
-img: AD7190BRUZ.JPG
+img: AD7190BRUZ.jpg
 ---
