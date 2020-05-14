@@ -6,7 +6,6 @@ model: IC DAC 10BIT OCTAL W/BUF 16TSSOP
 left-cols:
 - Product Attributes
 - Categories
-- Data Acquisition - Digital to Analog Converters (DAC)
 - Manufacturer
 - Series
 - Number of Bits
@@ -26,8 +25,8 @@ left-cols:
 - Mounting Type
 - Base Part Number
 right-cols:
-- Select All
-- Integrated Circuits (ICs)
+- Description
+- Integrated Circuits (ICs) , Data Acquisition - Digital to Analog Converters (DAC)
 - Analog Devices Inc.
 - '-'
 - '10'
@@ -46,5 +45,5 @@ right-cols:
 - 16-TSSOP
 - Surface Mount
 - AD5318
-img: AD5318BRUZ.JPG
+img: AD5318BRUZ.jpg
 ---
