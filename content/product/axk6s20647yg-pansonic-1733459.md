@@ -5,7 +5,6 @@ title: AXK6S20647YG PANSONIC
 model: CONN HEADER BRD/BRD .5MM 20POS
 left-cols:
 - Categories
-- Rectangular Connectors - Arrays, Edge Type, Mezzanine (Board to Board)
 - Manufacturer
 - Series
 - Packaging 
@@ -21,7 +20,7 @@ left-cols:
 - Mated Stacking Heights
 - Height Above Board
 right-cols:
-- Connectors, Interconnects
+- Connectors, Interconnects , Rectangular Connectors - Arrays, Edge Type, Mezzanine (Board to Board)
 - Panasonic Electric Works
 - P5KS
 - Tape & Reel (TR) 
