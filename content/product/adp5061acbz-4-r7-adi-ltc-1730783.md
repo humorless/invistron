@@ -6,7 +6,6 @@ model: IC CHRG MGMT LI-ION/POL 20WLCSP
 left-cols:
 - Product Attributes
 - Categories
-- PMIC - Battery Chargers
 - Manufacturer
 - Series
 - Battery Chemistry
@@ -23,8 +22,8 @@ left-cols:
 - Supplier Device Package
 - Base Part Number
 right-cols:
-- Select All
-- Integrated Circuits (ICs)
+- Description
+- Integrated Circuits (ICs) , PMIC - Battery Chargers
 - Analog Devices Inc.
 - '-'
 - Lithium-Ion
@@ -40,5 +39,5 @@ right-cols:
 - 20-WFBGA, WLCSP
 - 20-WLCSP (2x2.6)
 - ADP5061
-img: ADP5061ACBZ-4-R7.JPG
+img: ADP5061ACBZ-4-R7.jpg
 ---
