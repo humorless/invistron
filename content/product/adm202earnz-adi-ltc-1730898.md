@@ -6,7 +6,6 @@ model: IC TXRX RS-232 5V 15KV 16SOIC
 left-cols:
 - Product Attributes
 - Categories
-- Interface - Drivers, Receivers, Transceivers
 - Manufacturer
 - Series
 - Type
@@ -22,8 +21,8 @@ left-cols:
 - Supplier Device Package
 - Base Part Number
 right-cols:
-- Select All
-- Integrated Circuits (ICs)
+- Description
+- Integrated Circuits (ICs) , Interface - Drivers, Receivers, Transceivers
 - Analog Devices Inc.
 - '-'
 - Transceiver
@@ -38,5 +37,5 @@ right-cols:
 - 16-SOIC (0.154", 3.90mm Width)
 - 16-SOIC
 - ADM202
-img: ADM202EARNZ.JPG
+img: ADM202EARNZ.jpg
 ---
