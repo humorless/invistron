@@ -20,7 +20,7 @@ left-cols:
 - Package / Case
 - Supplier Device Package
 right-cols:
-- Select All
+- Description
 - Discrete Semiconductor Products
 - Vishay Semiconductor Diodes Division
 - Automotive, AEC-Q101
@@ -34,5 +34,5 @@ right-cols:
 - Through Hole
 - DO-204AH, DO-35, Axial
 - DO-35
-img: BZX55C5V6-TAP.JPG
+img: BZX55C5V6-TAP.jpg
 ---
