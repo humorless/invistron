@@ -6,7 +6,6 @@ model: TRANS PNP 40V 0.2A SOT23
 left-cols:
 - Product Attributes
 - Categories
-- Transistors - Bipolar (BJT) - Single
 - Manufacturer
 - Series
 - Transistor Type
@@ -23,8 +22,8 @@ left-cols:
 - Supplier Device Package
 - Base Part Number
 right-cols:
-- Select All
-- Discrete Semiconductor Products
+- Description
+- Discrete Semiconductor Products , Transistors - Bipolar (BJT) - Single
 - ON Semiconductor
 - Automotive, AEC-Q101
 - PNP
