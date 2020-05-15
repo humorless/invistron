@@ -6,7 +6,6 @@ model: IC REG LIN POS ADJ 800MA SOT223
 left-cols:
 - Product Attributes
 - Categories
-- PMIC - Voltage Regulators - Linear
 - Manufacturer
 - Series
 - Output Configuration
@@ -28,8 +27,8 @@ left-cols:
 - Supplier Device Package
 - Base Part Number
 right-cols:
-- Select All
-- Integrated Circuits (ICs)
+- Description
+- Integrated Circuits (ICs) , PMIC - Voltage Regulators - Linear
 - Texas Instruments
 - '-'
 - Positive
@@ -50,5 +49,5 @@ right-cols:
 - TO-261-4, TO-261AA
 - SOT-223
 - LM1117
-img: LM1117MPX-ADJNOPB.JPG
+img: LM1117MPX-ADJNOPB.jpg
 ---
