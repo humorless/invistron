@@ -6,7 +6,6 @@ model: MOSFET N-CH 30V 6.3A 6-TSOP
 left-cols:
 - Product Attributes
 - Categories
-- Transistors - FETs, MOSFETs - Single
 - Manufacturer
 - Series
 - FET Type
@@ -26,8 +25,8 @@ left-cols:
 - Supplier Device Package
 - Package / Case
 right-cols:
-- Select All
-- Discrete Semiconductor Products
+- Description
+- Discrete Semiconductor Products , Transistors - FETs, MOSFETs - Single
 - Vishay Siliconix
 - TrenchFET®
 - N-Channel
@@ -46,5 +45,5 @@ right-cols:
 - Surface Mount
 - 6-TSOP
 - SOT-23-6 Thin, TSOT-23-6
-img: SI3456DDV-T1-GE3.JPG
+img: SI3456DDV-T1-GE3.jpg
 ---
