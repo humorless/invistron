@@ -6,7 +6,6 @@ model: IC SMART CARD 20TSSOP
 left-cols:
 - Product Attributes
 - Categories
-- Interface - Specialized
 - Manufacturer
 - Series
 - Applications
@@ -17,8 +16,8 @@ left-cols:
 - Mounting Type
 - Base Part Number
 right-cols:
-- Select All
-- Integrated Circuits (ICs)
+- Description
+- Integrated Circuits (ICs) , Interface - Specialized
 - ON Semiconductor
 - '-'
 - Smart Card
