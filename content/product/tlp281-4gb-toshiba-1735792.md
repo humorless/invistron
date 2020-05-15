@@ -6,7 +6,6 @@ model: OPTOISO 2.5KV 4CH TRANS 16-SOP
 left-cols:
 - Product Attributes
 - Categories
-- Optoisolators - Transistor, Photovoltaic Output
 - Manufacturer
 - Series
 - Number of Channels
@@ -27,8 +26,8 @@ left-cols:
 - Package / Case
 - Supplier Device Package
 right-cols:
-- Select All
-- Isolators
+- Description
+- Isolators , Optoisolators - Transistor, Photovoltaic Output
 - Toshiba Semiconductor and Storage
 - '-'
 - '4'
@@ -48,5 +47,5 @@ right-cols:
 - Surface Mount
 - 16-SOIC (0.173", 4.40mm Width)
 - 16-SOP
-img: TLP281-4GB.JPG
+img: TLP281-4GB.jpg
 ---
