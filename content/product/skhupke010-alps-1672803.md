@@ -2,7 +2,7 @@
 type: Electromechanical
 vendor: ALPS
 title: SKHUPKE010　　ALPS
-model: 觸摸開關 6.0x6.0x2.5mm 100gf
+model: Tactile Switches 6.0x6.0x2.5mm 100gf
 left-cols:
 - Actuator Style
 - Max Processing Temp
