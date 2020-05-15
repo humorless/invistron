@@ -6,7 +6,6 @@ model: TRANS 8NPN DARL 50V 0.5A 18SOL
 left-cols:
 - Product Attributes
 - Categories
-- Transistors - Bipolar (BJT) - Arrays
 - Manufacturer
 - Series
 - Transistor Type
@@ -23,8 +22,8 @@ left-cols:
 - Supplier Device Package
 - Base Part Number
 right-cols:
-- Select All
-- Discrete Semiconductor Products
+- Description
+- Discrete Semiconductor Products , Transistors - Bipolar (BJT) - Arrays
 - Toshiba Semiconductor and Storage
 - '-'
 - 8 NPN Darlington
@@ -40,5 +39,5 @@ right-cols:
 - 18-SOIC (0.295", 7.50mm Width)
 - 18-SOL
 - ULN280*A
-img: ULN2803AFWG.JPG
+img: ULN2803AFWG.jpg
 ---
