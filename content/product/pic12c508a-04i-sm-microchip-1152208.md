@@ -47,5 +47,5 @@ right-cols:
 - -40°C ~ 85°C (TA)
 - 8-SOIC (0.209", 5.30mm Width)
 - 8-SOIJ
-img: PIC12C508A-04I-SM.PNG
+img: PIC12C508A-04I-SM.png
 ---
