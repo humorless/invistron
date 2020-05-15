@@ -6,7 +6,6 @@ model: IC LOAD SWITCH 4TDFN
 left-cols:
 - Product Attributes
 - Categories
-- PMIC - Power Distribution Switches, Load Drivers
 - Manufacturer
 - Series
 - Switch Type
@@ -26,8 +25,8 @@ left-cols:
 - Package / Case
 - Supplier Device Package
 right-cols:
-- Select All
-- Integrated Circuits (ICs)
+- Description
+- Integrated Circuits (ICs) , PMIC - Power Distribution Switches, Load Drivers
 - Vishay Siliconix
 - '-'
 - General Purpose
@@ -46,5 +45,5 @@ right-cols:
 - -40°C ~ 125°C (TJ)
 - 4-UFDFN Exposed Pad
 - 4-TDFN (1.2x1.6)
-img: SiP32408DNP-T1-GE4.JPG
+img: SiP32408DNP-T1-GE4.jpg
 ---
