@@ -6,7 +6,6 @@ model: TVS DIODE 170V 275V DO214AB
 left-cols:
 - Product Attributes
 - Categories
-- TVS - Diodes
 - Manufacturer
 - Series
 - Type
@@ -25,8 +24,8 @@ left-cols:
 - Supplier Device Package
 - Base Part Number
 right-cols:
-- Select All
-- Circuit Protection
+- Description
+- Circuit Protection , TVS - Diodes
 - Vishay Semiconductor Diodes Division
 - TransZorb®
 - Zener
@@ -44,5 +43,5 @@ right-cols:
 - DO-214AB, SMC
 - DO-214AB (SMCJ)
 - SMCJ
-img: NTCS0805E3103JHT.JPG
+img: SMCJ170CA-E357T.jpg
 ---
