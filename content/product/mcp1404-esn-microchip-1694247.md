@@ -6,7 +6,6 @@ model: IC MOSFET DVR 4.5A DUAL 8SOIC
 left-cols:
 - Product Attributes
 - Categories
-- PMIC - Gate Drivers
 - Manufacturer
 - Series
 - Driven Configuration
@@ -24,8 +23,8 @@ left-cols:
 - Supplier Device Package
 - Base Part Number
 right-cols:
-- Select All
-- Integrated Circuits (ICs)
+- Description
+- Integrated Circuits (ICs) , PMIC - Gate Drivers
 - Microchip Technology
 - '-'
 - Low-Side
