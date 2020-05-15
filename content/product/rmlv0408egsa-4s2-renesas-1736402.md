@@ -6,7 +6,6 @@ model: IC SRAM 4M PARALLEL 32STSOP
 left-cols:
 - Product Attributes
 - Categories
-- Memory
 - Manufacturer
 - Series
 - Memory Type
@@ -22,8 +21,8 @@ left-cols:
 - Package / Case
 - Supplier Device Package
 right-cols:
-- Select All
-- Integrated Circuits (ICs)
+- Description
+- Integrated Circuits (ICs) , Memory
 - Renesas Electronics America
 - '-'
 - Volatile
@@ -38,5 +37,5 @@ right-cols:
 - Surface Mount
 - 32-TFSOP (0.465", 11.80mm Width)
 - 32-sTSOP
-img: RMLV0408EGSA-4S2.JPG
+img: RMLV0408EGSA-4S2.jpg
 ---
