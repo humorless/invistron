@@ -6,7 +6,6 @@ model: IC COMP PREC W/P-POP LV SOT23-6
 left-cols:
 - Product Attributes
 - Categories
-- Linear - Comparators
 - Manufacturer
 - Series
 - Type
@@ -26,8 +25,8 @@ left-cols:
 - Supplier Device Package
 - Base Part Number
 right-cols:
-- Select All
-- Integrated Circuits (ICs)
+- Description
+- Integrated Circuits (ICs) , Linear - Comparators
 - Texas Instruments
 - '-'
 - General Purpose
@@ -46,5 +45,5 @@ right-cols:
 - Surface Mount
 - SOT-23-6
 - LMV761
-img: LMV761MFNOPB.JPG
+img: LMV761MFNOPB.jpg
 ---
