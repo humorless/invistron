@@ -6,7 +6,6 @@ model: IC COMPARATOR DUAL 3V/5V 8-SOIC
 left-cols:
 - Product Attributes
 - Categories
-- Linear - Comparators
 - Manufacturer
 - Series
 - Type
@@ -26,8 +25,8 @@ left-cols:
 - Supplier Device Package
 - Base Part Number
 right-cols:
-- Select All
-- Integrated Circuits (ICs)
+- Description
+- Integrated Circuits (ICs) , Linear - Comparators
 - Maxim Integrated
 - '-'
 - General Purpose
@@ -46,5 +45,5 @@ right-cols:
 - Surface Mount
 - 8-SOIC
 - MAX942
-img: MAX942CSA%2B.JPG
+img: MAX942CSA+.jpg
 ---
