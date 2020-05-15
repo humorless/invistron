@@ -6,7 +6,6 @@ model: IC ADC DIFFER 24-BIT HS 16-SSOP
 left-cols:
 - Product Attributes
 - Categories
-- Data Acquisition - Analog to Digital Converters (ADC)
 - Manufacturer
 - Series
 - Number of Bits
@@ -27,8 +26,8 @@ left-cols:
 - Supplier Device Package
 - Base Part Number
 right-cols:
-- Select All
-- Integrated Circuits (ICs)
+- Description
+- Integrated Circuits (ICs) , Data Acquisition - Analog to Digital Converters (ADC)
 - Linear Technology/Analog Devices
 - '-'
 - '24'
@@ -48,5 +47,5 @@ right-cols:
 - 16-SSOP (0.154", 3.90mm Width)
 - 16-SSOP
 - LTC2440
-img: LTC2440CGN.JPG
+img: LTC2440CGN.jpg
 ---
