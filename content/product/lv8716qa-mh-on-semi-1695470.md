@@ -6,7 +6,6 @@ model: IC MOTOR DRIVER PAR QFN16
 left-cols:
 - Product Attributes
 - Categories
-- PMIC - Motor Drivers, Controllers
 - Manufacturer
 - Series
 - Motor Type - Stepper
@@ -25,8 +24,8 @@ left-cols:
 - Package / Case
 - Supplier Device Package
 right-cols:
-- Select All
-- Integrated Circuits (ICs)
+- Description
+- Integrated Circuits (ICs) , PMIC - Motor Drivers, Controllers
 - ON Semiconductor
 - '-'
 - Bipolar
