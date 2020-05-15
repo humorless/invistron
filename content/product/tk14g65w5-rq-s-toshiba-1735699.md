@@ -37,5 +37,5 @@ right-cols:
 - 110 ns
 - 90 ns
 - '600'
-img: TK14G65W5%2CRQ%28S.jpg
+img: TK14G65W5,RQ(S.jpg
 ---
