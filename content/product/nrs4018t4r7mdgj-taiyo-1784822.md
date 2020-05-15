@@ -6,7 +6,6 @@ model: FIXED IND 4.7UH 1.7A 84 MOHM SMD
 left-cols:
 - Product Attributes
 - Categories
-- Fixed Inductors
 - Manufacturer
 - Series
 - Type
@@ -28,8 +27,8 @@ left-cols:
 - Size / Dimension
 - Height - Seated (Max)
 right-cols:
-- Select All
-- Inductors, Coils, Chokes
+- Description
+- Inductors, Coils, Chokes , Fixed Inductors
 - Taiyo Yuden
 - NR, S Type
 - Wirewound
@@ -50,5 +49,5 @@ right-cols:
 - '-'
 - 0.157" L x 0.157" W (4.00mm x 4.00mm)
 - 0.071" (1.80mm)
-img: NRS4018T4R7MDGJ.JPG
+img: NRS4018T4R7MDGJ.jpg
 ---
