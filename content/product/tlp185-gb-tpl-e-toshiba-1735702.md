@@ -6,7 +6,6 @@ model: X36 PB-F PHOTOCOUPLER SMD T&R
 left-cols:
 - Product Attributes
 - Categories
-- Optoisolators - Transistor, Photovoltaic Output
 - Manufacturer
 - Series
 - Number of Channels
@@ -27,8 +26,8 @@ left-cols:
 - Package / Case
 - Supplier Device Package
 right-cols:
-- Select All
-- Isolators
+- Description
+- Isolators , Optoisolators - Transistor, Photovoltaic Output
 - Toshiba Semiconductor and Storage
 - '-'
 - '1'
@@ -48,5 +47,5 @@ right-cols:
 - Surface Mount
 - 6-SOIC (0.173", 4.40mm Width), 4 Leads
 - 6-SO, 4 Lead
-img: TLP185%28GB-TPL%2CE%29.JPG
+img: TLP185(GB-TPL,E).jpg
 ---
