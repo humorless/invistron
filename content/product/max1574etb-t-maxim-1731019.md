@@ -6,7 +6,6 @@ model: IC LED DRIVER RGLTR DIM 10TDFN
 left-cols:
 - Product Attributes
 - Categories
-- PMIC - LED Drivers
 - Manufacturer
 - Series
 - Type
@@ -26,8 +25,8 @@ left-cols:
 - Supplier Device Package
 - Base Part Number
 right-cols:
-- Select All
-- Integrated Circuits (ICs)
+- Description
+- Integrated Circuits (ICs) , PMIC - LED Drivers
 - Maxim Integrated
 - '-'
 - DC DC Regulator
@@ -46,5 +45,5 @@ right-cols:
 - 10-WFDFN Exposed Pad
 - 10-TDFN-EP (3x3)
 - MAX1574
-img: MAX1574ETB%2BT.JPG
+img: MAX1574ETB+T.jpg
 ---
