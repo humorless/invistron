@@ -6,7 +6,6 @@ model: IC OPAMP GP 1.5MHZ RRO 8VSSOP
 left-cols:
 - Product Attributes
 - Categories
-- Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps
 - Manufacturer
 - Series
 - Amplifier Type
@@ -24,8 +23,8 @@ left-cols:
 - Supplier Device Package
 - Base Part Number
 right-cols:
-- Select All
-- Integrated Circuits (ICs)
+- Description
+- Integrated Circuits (ICs) , Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps
 - Texas Instruments
 - '-'
 - General Purpose
@@ -42,5 +41,5 @@ right-cols:
 - 8-TSSOP, 8-MSOP (0.118", 3.00mm Width)
 - 8-VSSOP
 - LMC6482
-img: LMC6482IMMXNOPB.JPG
+img: LMC6482IMMXNOPB.jpg
 ---
