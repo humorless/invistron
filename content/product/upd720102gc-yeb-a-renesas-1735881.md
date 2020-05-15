@@ -6,7 +6,6 @@ model: IC HOST CTLR USB2.0 3-PORTS QFP
 left-cols:
 - Product Attributes
 - Categories
-- Interface - Controllers
 - Manufacturer
 - Series
 - Protocol
@@ -19,8 +18,8 @@ left-cols:
 - Package / Case
 - Supplier Device Package
 right-cols:
-- Select All
-- Integrated Circuits (ICs)
+- Description
+- Integrated Circuits (ICs) , Interface - Controllers
 - Renesas Electronics America
 - '-'
 - USB
@@ -32,5 +31,5 @@ right-cols:
 - -20°C ~ 70°C
 - 120-TQFP
 - 120-TQFP (14x14)
-img: UPD720102GC-YEB-A.JPG
+img: UPD720102GC-YEB-A.jpg
 ---
