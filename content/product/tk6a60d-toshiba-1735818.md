@@ -6,7 +6,6 @@ model: MOSFET N-CH 600V 6A TO220SIS
 left-cols:
 - Product Attributes
 - Categories
-- Transistors - FETs, MOSFETs - Single
 - Manufacturer
 - Series
 - FET Type
@@ -26,8 +25,8 @@ left-cols:
 - Supplier Device Package
 - Package / Case
 right-cols:
-- Select All
-- Discrete Semiconductor Products
+- Description
+- Discrete Semiconductor Products , Transistors - FETs, MOSFETs - Single
 - Toshiba Semiconductor and Storage
 - π-MOSVII
 - N-Channel
@@ -46,5 +45,5 @@ right-cols:
 - Through Hole
 - TO-220SIS
 - TO-220-3 Full Pack
-img: TK6A60D.JPG
+img: TK6A60D.jpg
 ---
