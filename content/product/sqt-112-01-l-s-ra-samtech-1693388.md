@@ -1,11 +1,10 @@
 ---
 type: Electromechanical
 vendor: SAMTEC
-title: SQT-112-01-L-S-RA SAMTECH
+title: SQT-112-01-L-S-RA SAMTEC
 model: CONN RCPT 12P 0.079 GOLD PCB R/A
 left-cols:
 - Categories
-- 　
 - Manufacturer
 - Series
 - Packaging 
@@ -40,8 +39,7 @@ left-cols:
 - Contact Material
 - Contact Finish Thickness - Post
 right-cols:
-- Connectors, Interconnects
-- Rectangular Connectors - Headers, Receptacles, Female Sockets
+- Connectors, Interconnects , Rectangular Connectors - Headers, Receptacles, Female Sockets
 - Samtec Inc.
 - SQT
 - Bulk 
