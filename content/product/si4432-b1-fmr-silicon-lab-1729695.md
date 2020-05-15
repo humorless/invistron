@@ -6,7 +6,6 @@ model: IC RF TXRX ISM<1GHZ 20-VFQFN
 left-cols:
 - Product Attributes
 - Categories
-- RF Transceiver ICs
 - Manufacturer
 - Series
 - Type
@@ -26,8 +25,8 @@ left-cols:
 - Operating Temperature
 - Package / Case
 right-cols:
-- Select All
-- RF/IF and RFID
+- Description
+- RF/IF and RFID , RF Transceiver ICs
 - Silicon Labs
 - '-'
 - TxRx Only
