@@ -6,7 +6,6 @@ model: IC FLASH 4M PARALLEL 32PLCC
 left-cols:
 - Product Attributes
 - Categories
-- Memory
 - Manufacturer
 - Series
 - Memory Type
@@ -23,8 +22,8 @@ left-cols:
 - Supplier Device Package
 - Base Part Number
 right-cols:
-- Select All
-- Integrated Circuits (ICs)
+- Description
+- Integrated Circuits (ICs) , Memory
 - Microchip Technology
 - SST39 MPF™
 - Non-Volatile
