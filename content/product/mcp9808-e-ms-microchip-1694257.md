@@ -6,7 +6,6 @@ model: SENSOR DIGITAL -40C-125C 8MSOP
 left-cols:
 - Product Attributes
 - Categories
-- Temperature Sensors - Analog and Digital Output
 - Manufacturer
 - Series
 - Sensor Type
@@ -23,8 +22,8 @@ left-cols:
 - Package / Case
 - Supplier Device Package
 right-cols:
-- Select All
-- Sensors, Transducers
+- Description
+- Sensors, Transducers , Temperature Sensors - Analog and Digital Output
 - Microchip Technology
 - '-'
 - Digital, Local
