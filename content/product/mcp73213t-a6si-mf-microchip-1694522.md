@@ -6,7 +6,6 @@ model: IC LI-ION/LI-POLY CTRLR 10-DFN
 left-cols:
 - Product Attributes
 - Categories
-- PMIC - Battery Chargers
 - Manufacturer
 - Series
 - Battery Chemistry
@@ -23,8 +22,8 @@ left-cols:
 - Supplier Device Package
 - Base Part Number
 right-cols:
-- Select All
-- Integrated Circuits (ICs)
+- Description
+- Integrated Circuits (ICs) , PMIC - Battery Chargers
 - Microchip Technology
 - '-'
 - Lithium-Ion/Polymer
