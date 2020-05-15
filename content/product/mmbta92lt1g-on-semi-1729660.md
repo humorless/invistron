@@ -6,7 +6,6 @@ model: TRANS PNP 300V 0.5A SOT23
 left-cols:
 - Product Attributes
 - Categories
-- Transistors - Bipolar (BJT) - Single
 - Manufacturer
 - Series
 - Transistor Type
@@ -23,8 +22,8 @@ left-cols:
 - Supplier Device Package
 - Base Part Number
 right-cols:
-- Select All
-- Discrete Semiconductor Products
+- Description
+- Discrete Semiconductor Products , Transistors - Bipolar (BJT) - Single
 - ON Semiconductor
 - '-'
 - PNP
@@ -40,5 +39,5 @@ right-cols:
 - TO-236-3, SC-59, SOT-23-3
 - SOT-23-3 (TO-236)
 - MMBTA92
-img: MMBTA92LT1G.JPG
+img: MMBTA92LT1G.jpg
 ---
