@@ -6,7 +6,6 @@ model: IC OPAMP GP 1.5MHZ RRO 8SOIC
 left-cols:
 - Product Attributes
 - Categories
-- Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps
 - Manufacturer
 - Series
 - Amplifier Type
@@ -24,8 +23,8 @@ left-cols:
 - Supplier Device Package
 - Base Part Number
 right-cols:
-- Select All
-- Integrated Circuits (ICs)
+- Description
+- Integrated Circuits (ICs) , Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps
 - Texas Instruments
 - '-'
 - General Purpose
@@ -42,5 +41,5 @@ right-cols:
 - 8-SOIC (0.154", 3.90mm Width)
 - 8-SOIC
 - LMC6482
-img: LMC6482IMXNOPB.JPG
+img: LMC6482IMXNOPB.jpg
 ---
