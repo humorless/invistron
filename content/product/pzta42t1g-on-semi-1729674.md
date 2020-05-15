@@ -6,7 +6,6 @@ model: TRANS NPN 300V 0.5A SOT223
 left-cols:
 - Product Attributes
 - Categories
-- Transistors - Bipolar (BJT) - Single
 - Manufacturer
 - Series
 - Transistor Type
@@ -23,8 +22,8 @@ left-cols:
 - Supplier Device Package
 - Base Part Number
 right-cols:
-- Select All
-- Discrete Semiconductor Products
+- Description
+- Discrete Semiconductor Products , Transistors - Bipolar (BJT) - Single
 - ON Semiconductor
 - '-'
 - NPN
