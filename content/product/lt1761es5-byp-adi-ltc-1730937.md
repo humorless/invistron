@@ -6,7 +6,6 @@ model: IC REG LIN POS ADJ 100MA TSOT23
 left-cols:
 - Product Attributes
 - Categories
-- PMIC - Voltage Regulators - Linear
 - Manufacturer
 - Series
 - Output Configuration
@@ -26,8 +25,8 @@ left-cols:
 - Supplier Device Package
 - Base Part Number
 right-cols:
-- Select All
-- Integrated Circuits (ICs)
+- Description
+- Integrated Circuits (ICs) , PMIC - Voltage Regulators - Linear
 - Linear Technology/Analog Devices
 - '-'
 - Positive
@@ -46,5 +45,5 @@ right-cols:
 - SOT-23-5 Thin, TSOT-23-5
 - TSOT-23-5
 - LT1761
-img: LT1761ES5-BYP.JPG
+img: LT1761ES5-BYP.jpg
 ---
