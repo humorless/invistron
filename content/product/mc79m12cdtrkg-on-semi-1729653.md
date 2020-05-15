@@ -6,7 +6,6 @@ model: IC REG LINEAR -12V 500MA DPAK
 left-cols:
 - Product Attributes
 - Categories
-- PMIC - Voltage Regulators - Linear
 - Manufacturer
 - Series
 - Output Configuration
@@ -26,8 +25,8 @@ left-cols:
 - Supplier Device Package
 - Base Part Number
 right-cols:
-- Select All
-- Integrated Circuits (ICs)
+- Description
+- Integrated Circuits (ICs) , PMIC - Voltage Regulators - Linear
 - ON Semiconductor
 - '-'
 - Negative
@@ -46,5 +45,5 @@ right-cols:
 - TO-252-3, DPak (2 Leads + Tab), SC-63
 - DPAK
 - MC79M
-img: MC79M12CDTRKG.JPG
+img: MC79M12CDTRKG.jpg
 ---
