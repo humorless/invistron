@@ -6,7 +6,6 @@ model: RF TRANS NPN 25V 650MHZ SOT23-3
 left-cols:
 - Product Attributes
 - Categories
-- Transistors - Bipolar (BJT) - RF
 - Manufacturer
 - Series
 - Transistor Type
@@ -23,8 +22,8 @@ left-cols:
 - Supplier Device Package
 - Base Part Number
 right-cols:
-- Select All
-- Discrete Semiconductor Products
+- Description
+- Discrete Semiconductor Products , Transistors - Bipolar (BJT) - RF
 - ON Semiconductor
 - '-'
 - NPN
