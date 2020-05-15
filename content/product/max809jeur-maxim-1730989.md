@@ -6,7 +6,6 @@ model: IC RESET CIRC MPU SOT23-3
 left-cols:
 - Product Attributes
 - Categories
-- PMIC - Supervisors
 - Manufacturer
 - Series
 - Type
@@ -21,8 +20,8 @@ left-cols:
 - Supplier Device Package
 - Base Part Number
 right-cols:
-- Select All
-- Integrated Circuits (ICs)
+- Description
+- Integrated Circuits (ICs) , PMIC - Supervisors
 - Maxim Integrated
 - '-'
 - Simple Reset/Power-On Reset
@@ -36,5 +35,5 @@ right-cols:
 - TO-236-3, SC-59, SOT-23-3
 - SOT-23-3
 - MAX809
-img: MAX809JEUR%2B.JPG
+img: MAX809JEUR+.jpg
 ---
