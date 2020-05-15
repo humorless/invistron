@@ -6,7 +6,6 @@ model: IC OPAMP GP 1.1MHZ RRO SOT23-5
 left-cols:
 - Product Attributes
 - Categories
-- Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps
 - Manufacturer
 - Series
 - Amplifier Type
@@ -24,8 +23,8 @@ left-cols:
 - Supplier Device Package
 - Base Part Number
 right-cols:
-- Select All
-- Integrated Circuits (ICs)
+- Description
+- Integrated Circuits (ICs) , Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps
 - Texas Instruments
 - '-'
 - General Purpose
@@ -42,5 +41,5 @@ right-cols:
 - SC-74A, SOT-753
 - SOT-23-5
 - LMC7101
-img: LMC7101BIM5XNOPB.JPG
+img: LMC7101BIM5XNOPB.jpg
 ---
