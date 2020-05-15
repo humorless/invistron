@@ -6,7 +6,6 @@ model: IC REG BUCK ADJ 4A SYNC 28MLF
 left-cols:
 - Product Attributes
 - Categories
-- PMIC - Voltage Regulators - DC DC Switching Regulators
 - Manufacturer
 - Series
 - Function
@@ -27,8 +26,8 @@ left-cols:
 - Supplier Device Package
 - Base Part Number
 right-cols:
-- Select All
-- Integrated Circuits (ICs)
+- Description
+- Integrated Circuits (ICs) , PMIC - Voltage Regulators - DC DC Switching Regulators
 - Microchip Technology
 - Hyper Speed Control®, SuperSwitcher II™
 - Step-Down
@@ -48,5 +47,5 @@ right-cols:
 - 28-PowerVQFN
 - 28-MLF® (5x6)
 - MIC28510
-img: MIC28510YJL-TR.JPG
+img: MIC28510YJL-TR.jpg
 ---
