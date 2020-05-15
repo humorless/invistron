@@ -33,5 +33,5 @@ right-cols:
 - -40°C ~ 85°C (TA)
 - 8-SOIC (0.209", 5.30mm Width)
 - 8-SOIC
-img: SST25VF032B-804IS2AF.PNG
+img: SST25VF032B-804IS2AF.png
 ---
