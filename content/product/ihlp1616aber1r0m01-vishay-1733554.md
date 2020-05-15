@@ -6,7 +6,6 @@ model: FIXED IND 1UH 4A 52.5 MOHM SMD
 left-cols:
 - Product Attributes
 - Categories
-- Fixed Inductors
 - Manufacturer
 - Series
 - Type
@@ -28,8 +27,8 @@ left-cols:
 - Size / Dimension
 - Height - Seated (Max)
 right-cols:
-- Select All
-- Inductors, Coils, Chokes
+- Description
+- Inductors, Coils, Chokes , Fixed Inductors
 - Vishay Dale
 - IHLP-1616AB-01
 - Molded
@@ -50,5 +49,5 @@ right-cols:
 - '-'
 - 0.175" L x 0.160" W (4.45mm x 4.06mm)
 - 0.047" (1.20mm)
-img: IHLP1616ABER1R0M01.JPG
+img: IHLP1616ABER1R0M01.jpg
 ---
