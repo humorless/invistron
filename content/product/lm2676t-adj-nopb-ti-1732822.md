@@ -6,7 +6,6 @@ model: IC REG BUCK ADJ 3A TO220-7
 left-cols:
 - Product Attributes
 - Categories
-- PMIC - Voltage Regulators - DC DC Switching Regulators
 - Manufacturer
 - Series
 - Function
@@ -27,8 +26,8 @@ left-cols:
 - Supplier Device Package
 - Base Part Number
 right-cols:
-- Select All
-- Integrated Circuits (ICs)
+- Description
+- Integrated Circuits (ICs) , PMIC - Voltage Regulators - DC DC Switching Regulators
 - Texas Instruments
 - SIMPLE SWITCHER®
 - Step-Down
@@ -48,5 +47,5 @@ right-cols:
 - TO-220-7 (Formed Leads)
 - TO-220-7
 - LM2676
-img: LM2676T-ADJNOPB.JPG
+img: LM2676T-ADJNOPB.jpg
 ---
