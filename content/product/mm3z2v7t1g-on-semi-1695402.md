@@ -6,7 +6,6 @@ model: DIODE ZENER 2.7V 300MW SOD323
 left-cols:
 - Product Attributes
 - Categories
-- Diodes - Zener - Single
 - Manufacturer
 - Series
 - Voltage - Zener (Nom) (Vz)
@@ -21,8 +20,8 @@ left-cols:
 - Supplier Device Package
 - Base Part Number
 right-cols:
-- Select All
-- Discrete Semiconductor Products
+- Description
+- Discrete Semiconductor Products , Diodes - Zener - Single
 - ON Semiconductor
 - '-'
 - 2.7V
