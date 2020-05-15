@@ -6,7 +6,6 @@ model: IC TX LVDS SERDES 56TSSOP
 left-cols:
 - Product Attributes
 - Categories
-- Interface - Serializers, Deserializers
 - Manufacturer
 - Series
 - Function
@@ -22,8 +21,8 @@ left-cols:
 - Supplier Device Package
 - Base Part Number
 right-cols:
-- Select All
-- Integrated Circuits (ICs)
+- Description
+- Integrated Circuits (ICs) , Interface - Serializers, Deserializers
 - Texas Instruments
 - '-'
 - Serializer
@@ -38,5 +37,5 @@ right-cols:
 - 56-TFSOP (0.240", 6.10mm Width)
 - 56-TSSOP
 - SN65LVDS93A
-img: SN65LVDS93ADGG.JPG
+img: SN65LVDS93ADGG.jpg
 ---
