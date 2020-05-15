@@ -6,7 +6,6 @@ model: IC ADC 12BIT 2.7V 8CH SPI 16SOIC
 left-cols:
 - Product Attributes
 - Categories
-- Data Acquisition - Analog to Digital Converters (ADC)
 - Manufacturer
 - Series
 - Number of Bits
@@ -27,8 +26,8 @@ left-cols:
 - Supplier Device Package
 - Base Part Number
 right-cols:
-- Select All
-- Integrated Circuits (ICs)
+- Description
+- Integrated Circuits (ICs) , Data Acquisition - Analog to Digital Converters (ADC)
 - Microchip Technology
 - '-'
 - '12'
