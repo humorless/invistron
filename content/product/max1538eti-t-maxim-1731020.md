@@ -6,7 +6,6 @@ model: IC PWR SOURCE SELECTOR 28-TQFN
 left-cols:
 - Product Attributes
 - Categories
-- PMIC - Battery Management
 - Manufacturer
 - Series
 - Function
@@ -19,8 +18,8 @@ left-cols:
 - Supplier Device Package
 - Base Part Number
 right-cols:
-- Select All
-- Integrated Circuits (ICs)
+- Description
+- Integrated Circuits (ICs) , PMIC - Battery Management
 - Maxim Integrated
 - '-'
 - Power Management
@@ -32,5 +31,5 @@ right-cols:
 - 28-WFQFN Exposed Pad
 - 28-TQFN (5x5)
 - MAX1538
-img: MAX1538ETI%2BT.JPG
+img: MAX1538ETI+T.jpg
 ---
