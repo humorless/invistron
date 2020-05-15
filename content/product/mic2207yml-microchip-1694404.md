@@ -6,7 +6,6 @@ model: IC REG BUCK ADJ 3A 12MLF
 left-cols:
 - Product Attributes
 - Categories
-- PMIC - Voltage Regulators - DC DC Switching Regulators
 - Manufacturer
 - Series
 - Function
@@ -27,8 +26,8 @@ left-cols:
 - Supplier Device Package
 - Base Part Number
 right-cols:
-- Select All
-- Integrated Circuits (ICs)
+- Description
+- Integrated Circuits (ICs) , PMIC - Voltage Regulators - DC DC Switching Regulators
 - Microchip Technology
 - '-'
 - Step-Down
