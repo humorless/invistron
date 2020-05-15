@@ -6,7 +6,6 @@ model: IC CONTROLLER USB 48TQFP
 left-cols:
 - Product Attributes
 - Categories
-- Interface - Controllers
 - Manufacturer
 - Series
 - Protocol
@@ -19,8 +18,8 @@ left-cols:
 - Package / Case
 - Supplier Device Package
 right-cols:
-- Select All
-- Integrated Circuits (ICs)
+- Description
+- Integrated Circuits (ICs) , Interface - Controllers
 - Renesas Electronics America
 - ECOUSB™
 - USB
@@ -32,5 +31,5 @@ right-cols:
 - 0°C ~ 85°C
 - 48-TQFP
 - 48-TQFP (7x7)
-img: UPD720114GA-YEU-A.JPG
+img: UPD720114GA-YEU-A.jpg
 ---
