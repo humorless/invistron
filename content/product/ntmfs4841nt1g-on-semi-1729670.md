@@ -6,7 +6,6 @@ model: MOSFET N-CH 30V 8.3A SO-8FL
 left-cols:
 - Product Attributes
 - Categories
-- Transistors - FETs, MOSFETs - Single
 - Manufacturer
 - Series
 - FET Type
@@ -26,8 +25,8 @@ left-cols:
 - Supplier Device Package
 - Package / Case
 right-cols:
-- Select All
-- Discrete Semiconductor Products
+- Description
+- Discrete Semiconductor Products , Transistors - FETs, MOSFETs - Single
 - ON Semiconductor
 - '-'
 - N-Channel
@@ -46,5 +45,5 @@ right-cols:
 - Surface Mount
 - 5-DFN (5x6) (8-SOFL)
 - 8-PowerTDFN, 5 Leads
-img: NTMFS4841NT1G.JPG
+img: NTMFS4841NT1G.jpg
 ---
