@@ -48,5 +48,5 @@ right-cols:
 - Surface Mount
 - 8-SOIC (0.154", 3.90mm Width)
 - 8-SOIC
-img: MC34063ADR2G.PNG
+img: MC34063ADR2G.png
 ---
