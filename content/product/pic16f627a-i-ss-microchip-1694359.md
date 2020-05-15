@@ -6,7 +6,6 @@ model: IC MCU 8BIT 1.75KB FLASH 20SSOP
 left-cols:
 - Product Attributes
 - Categories
-- Embedded - Microcontrollers
 - Manufacturer
 - Series
 - Core Processor
@@ -27,8 +26,8 @@ left-cols:
 - Supplier Device Package
 - Base Part Number
 right-cols:
-- Select All
-- Integrated Circuits (ICs)
+- Description
+- Integrated Circuits (ICs) , Embedded - Microcontrollers
 - Microchip Technology
 - PIC® 16F
 - PIC
