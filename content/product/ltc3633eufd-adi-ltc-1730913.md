@@ -6,7 +6,6 @@ model: IC REG BUCK ADJ 3A DL SYNC 28QFN
 left-cols:
 - Product Attributes
 - Categories
-- PMIC - Voltage Regulators - DC DC Switching Regulators
 - Manufacturer
 - Series
 - Function
@@ -27,8 +26,8 @@ left-cols:
 - Supplier Device Package
 - Base Part Number
 right-cols:
-- Select All
-- Integrated Circuits (ICs)
+- Description
+- Integrated Circuits (ICs) , PMIC - Voltage Regulators - DC DC Switching Regulators
 - Linear Technology/Analog Devices
 - '-'
 - Step-Down
@@ -48,5 +47,5 @@ right-cols:
 - 28-WFQFN Exposed Pad
 - 28-QFN (4x5)
 - LTC3633
-img: LTC3633EUFD.JPG
+img: LTC3633EUFD.jpg
 ---
