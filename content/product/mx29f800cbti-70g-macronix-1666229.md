@@ -6,7 +6,6 @@ model: IC FLASH 8M PARALLEL 48TSOP
 left-cols:
 - Product Attributes
 - Categories
-- Memory
 - Manufacturer
 - Series
 - Part Status
@@ -23,8 +22,8 @@ left-cols:
 - Package / Case
 - Supplier Device Package
 right-cols:
-- Select All
-- Integrated Circuits (ICs)
+- Description
+- Integrated Circuits (ICs) , Memory
 - Macronix
 - MX29F
 - Active
@@ -40,5 +39,5 @@ right-cols:
 - Surface Mount
 - 48-TFSOP (0.724", 18.40mm Width)
 - 48-TSOP
-img: MX29F800CBTI-70G.JPG
+img: MX29F800CBTI-70G.jpg
 ---
