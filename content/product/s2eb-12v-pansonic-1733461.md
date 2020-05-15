@@ -5,7 +5,6 @@ title: S2EB-12V PANSONIC
 model: RELAY GEN PURPOSE 4PST 4A 12V
 left-cols:
 - Categories
-- Power Relays, Over 2 Amps
 - Manufacturer
 - Series
 - Packaging 
@@ -29,7 +28,7 @@ left-cols:
 - Coil Power
 - Coil Resistance
 right-cols:
-- Relays
+- Relays , Power Relays, Over 2 Amps
 - Panasonic Electric Works
 - S
 - Tube 
