@@ -6,7 +6,6 @@ model: TVS DIODE 5.5V 17V LLP1006-2M
 left-cols:
 - Product Attributes
 - Categories
-- TVS - Diodes
 - Manufacturer
 - Series
 - Type
@@ -25,8 +24,8 @@ left-cols:
 - Supplier Device Package
 - Base Part Number
 right-cols:
-- Select All
-- Circuit Protection
+- Description
+- Circuit Protection , TVS - Diodes
 - Vishay Semiconductor Diodes Division
 - '-'
 - Zener
@@ -44,5 +43,5 @@ right-cols:
 - 2-SMD, Flat Lead
 - LLP1006-2M
 - VBUS05L1-DD1
-img: VBUS05L1-DD1-G-08.JPG
+img: VBUS05L1-DD1-G-08.jpg
 ---
