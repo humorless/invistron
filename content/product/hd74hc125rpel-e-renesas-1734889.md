@@ -65,5 +65,5 @@ right-cols:
 - GULL WING
 - 1.27  mm
 - DUAL
-img: HD74HC125RPEL-E.JPG
+img: HD74HC125RPEL-E.jpg
 ---
