@@ -6,7 +6,6 @@ model: IC GATE AND 2CH 2-INP US8
 left-cols:
 - Product Attributes
 - Categories
-- Logic - Gates and Inverters
 - Manufacturer
 - Series
 - Logic Type
@@ -24,8 +23,8 @@ left-cols:
 - Supplier Device Package
 - Package / Case
 right-cols:
-- Select All
-- Integrated Circuits (ICs)
+- Description
+- Integrated Circuits (ICs) , Logic - Gates and Inverters
 - Toshiba Semiconductor and Storage
 - TC7WH
 - AND Gate
@@ -42,5 +41,5 @@ right-cols:
 - Surface Mount
 - US8
 - 8-VFSOP (0.091", 2.30mm Width)
-img: TC7WH08FK.JPG
+img: TC7WH08FK.jpg
 ---
