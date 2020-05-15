@@ -6,7 +6,6 @@ model: IC OPAMP GP 1MHZ RRO SC70-6
 left-cols:
 - Product Attributes
 - Categories
-- Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps
 - Manufacturer
 - Series
 - Amplifier Type
@@ -24,8 +23,8 @@ left-cols:
 - Supplier Device Package
 - Base Part Number
 right-cols:
-- Select All
-- Integrated Circuits (ICs)
+- Description
+- Integrated Circuits (ICs) , Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps
 - Maxim Integrated
 - '-'
 - General Purpose
@@ -42,5 +41,5 @@ right-cols:
 - 6-TSSOP, SC-88, SOT-363
 - SC-70-6
 - MAX9915
-img: MAX9915EXT%2BT.JPG
+img: MAX9915EXT+T.jpg
 ---
