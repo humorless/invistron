@@ -6,7 +6,6 @@ model: IC SUPERVISOR 4.38V LOW S0T-23B
 left-cols:
 - Product Attributes
 - Categories
-- PMIC - Supervisors
 - Manufacturer
 - Series
 - Type
@@ -21,8 +20,8 @@ left-cols:
 - Supplier Device Package
 - Base Part Number
 right-cols:
-- Select All
-- Integrated Circuits (ICs)
+- Description
+- Integrated Circuits (ICs) , PMIC - Supervisors
 - Microchip Technology
 - '-'
 - Simple Reset/Power-On Reset
