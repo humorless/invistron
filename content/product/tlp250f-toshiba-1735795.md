@@ -6,7 +6,6 @@ model: OPTOISO 2.5KV 1CH GATE DRVR 8DIP
 left-cols:
 - Product Attributes
 - Categories
-- Isolators - Gate Drivers
 - Manufacturer
 - Series
 - Technology
@@ -27,8 +26,8 @@ left-cols:
 - Supplier Device Package
 - Approvals
 right-cols:
-- Select All
-- Isolators
+- Description
+- Isolators , Isolators - Gate Drivers
 - Toshiba Semiconductor and Storage
 - '-'
 - Optical Coupling
@@ -48,5 +47,5 @@ right-cols:
 - 8-DIP (0.300", 7.62mm)
 - 8-DIP
 - UR
-img: TLP250F.JPG
+img: TLP250F.jpg
 ---
