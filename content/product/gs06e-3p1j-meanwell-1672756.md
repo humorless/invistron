@@ -5,7 +5,6 @@ title: GS06E-3P1J　　MEANWELL
 model: AC/DC WALL MOUNT ADAPTER 12V 6W
 left-cols:
 - Categories
-- AC DC Desktop, Wall Adapters
 - Manufacturer
 - Series
 - Part Status
@@ -27,7 +26,7 @@ left-cols:
 - Input Connector
 - Cord Length
 right-cols:
-- Power Supplies - External/Internal (Off-Board)
+- Power Supplies - External/Internal (Off-Board) , AC DC Desktop, Wall Adapters
 - MEAN WELL USA Inc.
 - GS06E (6W)
 - Active
