@@ -6,7 +6,6 @@ model: DIODE ZENER 10V 500MW SOD80
 left-cols:
 - Product Attributes
 - Categories
-- Diodes - Zener - Single
 - Manufacturer
 - Series
 - Voltage - Zener (Nom) (Vz)
@@ -21,8 +20,8 @@ left-cols:
 - Supplier Device Package
 - Base Part Number
 right-cols:
-- Select All
-- Discrete Semiconductor Products
+- Description
+- Discrete Semiconductor Products , Diodes - Zener - Single
 - Vishay Semiconductor Diodes Division
 - '-'
 - 10V
@@ -36,5 +35,5 @@ right-cols:
 - DO-213AC, MINI-MELF, SOD-80
 - SOD-80 MiniMELF
 - TZMC10
-img: TZMC10GS08.JPG
+img: TZMC10GS08.jpg
 ---
