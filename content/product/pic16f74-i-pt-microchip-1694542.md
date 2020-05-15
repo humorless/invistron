@@ -6,7 +6,6 @@ model: IC MCU 8BIT 7KB FLASH 44TQFP
 left-cols:
 - Product Attributes
 - Categories
-- Embedded - Microcontrollers
 - Manufacturer
 - Series
 - Core Processor
@@ -27,8 +26,8 @@ left-cols:
 - Supplier Device Package
 - Base Part Number
 right-cols:
-- Select All
-- Integrated Circuits (ICs)
+- Description
+- Integrated Circuits (ICs) , Embedded - Microcontrollers
 - Microchip Technology
 - PIC® 16F
 - PIC
@@ -48,5 +47,5 @@ right-cols:
 - 44-TQFP
 - 44-TQFP (10x10)
 - PIC16F74
-img: PIC16F74-IPT.JPG
+img: PIC16F74-IPT.jpg
 ---
