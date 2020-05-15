@@ -5,7 +5,6 @@ title: PTGL09AS7R6K6B51B0　　MURATA
 model: PTC Resettable Fuse 140V 227mA Ih Through Hole Radial, Disc
 left-cols:
 - Categories
-- PTC Resettable Fuses
 - Manufacturer
 - Series
 - Packaging 
@@ -22,7 +21,7 @@ left-cols:
 - Thickness (Max)
 - Lead Spacing
 right-cols:
-- Circuit Protection
+- Circuit Protection , PTC Resettable Fuses
 - Murata Electronics North America
 - POSISTOR® PTGL
 - Bulk 
