@@ -6,7 +6,6 @@ model: IC FLASH 32M SPI 104MHZ 8WDFN
 left-cols:
 - Product Attributes
 - Categories
-- Memory
 - Manufacturer
 - Series
 - Memory Type
@@ -23,8 +22,8 @@ left-cols:
 - Supplier Device Package
 - Base Part Number
 right-cols:
-- Select All
-- Integrated Circuits (ICs)
+- Description
+- Integrated Circuits (ICs) , Memory
 - Microchip Technology
 - SST26 SQI®
 - Non-Volatile
