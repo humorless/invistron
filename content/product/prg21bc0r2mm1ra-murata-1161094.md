@@ -5,7 +5,6 @@ title: PRG21BC0R2MM1RA　　MURATA
 model: PTC Resettable Fuse 6V 500mA Ih Surface Mount 0805 (2012 Metric)
 left-cols:
 - Categories
-- PTC Resettable Fuses
 - Manufacturer
 - Series
 - Packaging 
@@ -22,7 +21,7 @@ left-cols:
 - Thickness (Max)
 - Lead Spacing
 right-cols:
-- Circuit Protection
+- Circuit Protection , PTC Resettable Fuses
 - Murata Electronics North America
 - POSISTOR® PRG21BC
 - Tape & Reel (TR) 
