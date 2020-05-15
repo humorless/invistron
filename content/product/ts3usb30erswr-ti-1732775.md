@@ -6,7 +6,6 @@ model: IC USB SWITCH DUAL 1X2 10UQFN
 left-cols:
 - Product Attributes
 - Categories
-- Interface - Analog Switches - Special Purpose
 - Manufacturer
 - Series
 - Applications
@@ -23,8 +22,8 @@ left-cols:
 - Supplier Device Package
 - Base Part Number
 right-cols:
-- Select All
-- Integrated Circuits (ICs)
+- Description
+- Integrated Circuits (ICs) , Interface - Analog Switches - Special Purpose
 - Texas Instruments
 - '-'
 - USB
@@ -40,5 +39,5 @@ right-cols:
 - 10-UFQFN
 - 10-UQFN (1.8x1.4)
 - TS3USB30E
-img: TS3USB30ERSWR.JPG
+img: TS3USB30ERSWR.jpg
 ---
