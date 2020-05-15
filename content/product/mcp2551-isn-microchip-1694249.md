@@ -6,7 +6,6 @@ model: IC TRANSCEIVER CAN HI-SPD 8-SOIC
 left-cols:
 - Product Attributes
 - Categories
-- Interface - Drivers, Receivers, Transceivers
 - Manufacturer
 - Series
 - Type
@@ -22,8 +21,8 @@ left-cols:
 - Supplier Device Package
 - Base Part Number
 right-cols:
-- Select All
-- Integrated Circuits (ICs)
+- Description
+- Integrated Circuits (ICs) , Interface - Drivers, Receivers, Transceivers
 - Microchip Technology
 - '-'
 - Transceiver
