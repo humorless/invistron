@@ -6,7 +6,6 @@ model: OPTOCOUPLER TRANS
 left-cols:
 - Product Attributes
 - Categories
-- Optoisolators - Transistor, Photovoltaic Output
 - Manufacturer
 - Series
 - Number of Channels
@@ -27,8 +26,8 @@ left-cols:
 - Package / Case
 - Supplier Device Package
 right-cols:
-- Select All
-- Isolators
+- Description
+- Isolators , Optoisolators - Transistor, Photovoltaic Output
 - Toshiba Semiconductor and Storage
 - '-'
 - '1'
