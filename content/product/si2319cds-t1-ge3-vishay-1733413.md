@@ -6,7 +6,6 @@ model: MOSFET P-CH 40V 4.4A SOT-23
 left-cols:
 - Product Attributes
 - Categories
-- Transistors - FETs, MOSFETs - Single
 - Manufacturer
 - Series
 - FET Type
@@ -26,8 +25,8 @@ left-cols:
 - Supplier Device Package
 - Package / Case
 right-cols:
-- Select All
-- Discrete Semiconductor Products
+- Description
+- Discrete Semiconductor Products , Transistors - FETs, MOSFETs - Single
 - Vishay Siliconix
 - TrenchFET®
 - P-Channel
@@ -46,5 +45,5 @@ right-cols:
 - Surface Mount
 - SOT-23-3 (TO-236)
 - TO-236-3, SC-59, SOT-23-3
-img: SI2319CDS-T1-GE3.JPG
+img: SI2319CDS-T1-GE3.jpg
 ---
