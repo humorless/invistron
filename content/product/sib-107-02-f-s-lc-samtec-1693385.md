@@ -5,7 +5,6 @@ title: SIB-107-02-F-S-LC SAMTEC
 model: 100 SINGLE INTERFACE BEAM ASSEM
 left-cols:
 - Categories
-- 　
 - Manufacturer
 - Series
 - Packaging 
@@ -20,8 +19,7 @@ left-cols:
 - Contact Finish
 - Contact Finish Thickness
 right-cols:
-- Connectors, Interconnects
-- Rectangular Connectors - Spring Loaded
+- Connectors, Interconnects , Rectangular Connectors - Spring Loaded
 - Samtec Inc.
 - SIB
 - Tube 
