@@ -6,7 +6,6 @@ model: IC ADC 24BIT 38-QFN
 left-cols:
 - Product Attributes
 - Categories
-- Data Acquisition - Analog to Digital Converters (ADC)
 - Manufacturer
 - Series
 - Number of Bits
@@ -27,8 +26,8 @@ left-cols:
 - Supplier Device Package
 - Base Part Number
 right-cols:
-- Select All
-- Integrated Circuits (ICs)
+- Description
+- Integrated Circuits (ICs) , Data Acquisition - Analog to Digital Converters (ADC)
 - Linear Technology/Analog Devices
 - '-'
 - '24'
@@ -48,5 +47,5 @@ right-cols:
 - 38-WFQFN Exposed Pad
 - 38-QFN (5x7)
 - LTC2449
-img: LTC2449CUHF.JPG
+img: LTC2449CUHF.jpg
 ---
