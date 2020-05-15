@@ -6,7 +6,6 @@ model: IC REG BCK BST ADJ 3A SYNC 16DFN
 left-cols:
 - Product Attributes
 - Categories
-- PMIC - Voltage Regulators - DC DC Switching Regulators
 - Manufacturer
 - Series
 - Function
@@ -27,8 +26,8 @@ left-cols:
 - Supplier Device Package
 - Base Part Number
 right-cols:
-- Select All
-- Integrated Circuits (ICs)
+- Description
+- Integrated Circuits (ICs) , PMIC - Voltage Regulators - DC DC Switching Regulators
 - Linear Technology/Analog Devices
 - '-'
 - Step-Up/Step-Down
@@ -48,5 +47,5 @@ right-cols:
 - 16-WFDFN Exposed Pad
 - 16-DFN (5x4)
 - LTC3113
-img: LTC3113IDHD.JPG
+img: LTC3113IDHD.jpg
 ---
