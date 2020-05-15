@@ -6,7 +6,6 @@ model: TVS DIODE 3.3V 20V SOT23
 left-cols:
 - Product Attributes
 - Categories
-- TVS - Diodes
 - Manufacturer
 - Series
 - Type
@@ -25,8 +24,8 @@ left-cols:
 - Supplier Device Package
 - Base Part Number
 right-cols:
-- Select All
-- Circuit Protection
+- Description
+- Circuit Protection , TVS - Diodes
 - Nexperia USA Inc.
 - '-'
 - Zener
@@ -44,5 +43,5 @@ right-cols:
 - TO-236-3, SC-59, SOT-23-3
 - TO-236AB
 - PESD*S2U
-img: PESD3V3S2UT.JPG
+img: PESD3V3S2UT.jpg
 ---
