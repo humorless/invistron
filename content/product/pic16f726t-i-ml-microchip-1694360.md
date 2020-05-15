@@ -6,7 +6,6 @@ model: IC MCU 8BIT 14KB FLASH 28QFN
 left-cols:
 - Product Attributes
 - Categories
-- Embedded - Microcontrollers
 - Manufacturer
 - Series
 - Core Processor
@@ -27,8 +26,8 @@ left-cols:
 - Supplier Device Package
 - Base Part Number
 right-cols:
-- Select All
-- Integrated Circuits (ICs)
+- Description
+- Integrated Circuits (ICs) , Embedded - Microcontrollers
 - Microchip Technology
 - PIC® XLP™ 16F
 - PIC
