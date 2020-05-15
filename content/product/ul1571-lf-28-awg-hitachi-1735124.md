@@ -21,5 +21,5 @@ right-cols:
 - '80'
 - 3000Ft/R
 - 1.35kg
-img: UL1571-28AWG-.JPG
+img: UL1571-28AWG-.jpg
 ---
