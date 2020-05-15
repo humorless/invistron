@@ -5,7 +5,6 @@ title: P6SMB12A LITTELFUSE
 model: TVS DIODE 10.2V 16.7V DO214AA
 left-cols:
 - Categories
-- TVS - Diodes
 - Manufacturer
 - Series
 - Packaging 
@@ -23,7 +22,7 @@ left-cols:
 - Operating Temperature
 - Mounting Type
 right-cols:
-- Circuit Protection
+- Circuit Protection , TVS - Diodes
 - Littelfuse Inc.
 - P6SMB
 - Tape & Reel (TR) 
