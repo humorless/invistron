@@ -6,7 +6,6 @@ model: OPTOCOUPLER TRANS SOIC
 left-cols:
 - Product Attributes
 - Categories
-- Optoisolators - Transistor, Photovoltaic Output
 - Manufacturer
 - Series
 - Number of Channels
@@ -27,8 +26,8 @@ left-cols:
 - Package / Case
 - Supplier Device Package
 right-cols:
-- Select All
-- Isolators
+- Description
+- Isolators , Optoisolators - Transistor, Photovoltaic Output
 - Toshiba Semiconductor and Storage
 - '-'
 - '1'
@@ -48,5 +47,5 @@ right-cols:
 - Surface Mount
 - 6-SMD (4 Leads), Gull Wing
 - 6-MFSOP, 4 Lead
-img: TLP181-GR.JPG
+img: TLP181-GR.jpg
 ---
