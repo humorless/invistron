@@ -6,7 +6,6 @@ model: TVS DIODE 5V 14V SOD323
 left-cols:
 - Product Attributes
 - Categories
-- TVS - Diodes
 - Manufacturer
 - Series
 - Type
@@ -25,8 +24,8 @@ left-cols:
 - Supplier Device Package
 - Base Part Number
 right-cols:
-- Select All
-- Circuit Protection
+- Description
+- Circuit Protection , TVS - Diodes
 - Nexperia USA Inc.
 - '-'
 - Zener
@@ -44,5 +43,5 @@ right-cols:
 - SC-76, SOD-323
 - SOD-323
 - PESD*S1B
-img: PESD5V0S1BA.JPG
+img: PESD5V0S1BA.jpg
 ---
