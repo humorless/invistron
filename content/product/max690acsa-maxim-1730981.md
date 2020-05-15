@@ -6,7 +6,6 @@ model: IC MPU SUPERVISORY CIRCUIT 8SOIC
 left-cols:
 - Product Attributes
 - Categories
-- PMIC - Supervisors
 - Manufacturer
 - Series
 - Type
@@ -21,8 +20,8 @@ left-cols:
 - Supplier Device Package
 - Base Part Number
 right-cols:
-- Select All
-- Integrated Circuits (ICs)
+- Description
+- Integrated Circuits (ICs) , PMIC - Supervisors
 - Maxim Integrated
 - '-'
 - Battery Backup Circuit
@@ -36,5 +35,5 @@ right-cols:
 - 8-SOIC (0.154", 3.90mm Width)
 - 8-SOIC
 - MAX690
-img: MAX690ACSA%2B.JPG
+img: MAX690ACSA+.jpg
 ---
