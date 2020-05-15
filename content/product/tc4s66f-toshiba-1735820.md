@@ -6,7 +6,6 @@ model: IC SWITCH SPST SMV5
 left-cols:
 - Product Attributes
 - Categories
-- Interface - Analog Switches, Multiplexers, Demultiplexers
 - Manufacturer
 - Series
 - Switch Circuit
@@ -27,8 +26,8 @@ left-cols:
 - Supplier Device Package
 - Base Part Number
 right-cols:
-- Select All
-- Integrated Circuits (ICs)
+- Description
+- Integrated Circuits (ICs) , Interface - Analog Switches, Multiplexers, Demultiplexers
 - Toshiba Semiconductor and Storage
 - '-'
 - SPST - NO
@@ -48,5 +47,5 @@ right-cols:
 - SC-74A, SOT-753
 - SMV
 - 4S66
-img: TC4S66F.JPG
+img: TC4S66F.jpg
 ---
