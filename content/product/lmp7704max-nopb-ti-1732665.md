@@ -6,7 +6,6 @@ model: IC OPAMP GP 2.5MHZ RRO 14SOIC
 left-cols:
 - Product Attributes
 - Categories
-- Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps
 - Manufacturer
 - Series
 - Amplifier Type
@@ -25,8 +24,8 @@ left-cols:
 - Supplier Device Package
 - Base Part Number
 right-cols:
-- Select All
-- Integrated Circuits (ICs)
+- Description
+- Integrated Circuits (ICs) , Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps
 - Texas Instruments
 - LMP®
 - General Purpose
@@ -44,5 +43,5 @@ right-cols:
 - 14-SOIC (0.154", 3.90mm Width)
 - 14-SOIC
 - LMP7704
-img: LMP7704MAXNOPB.JPG
+img: LMP7704MAXNOPB.jpg
 ---
