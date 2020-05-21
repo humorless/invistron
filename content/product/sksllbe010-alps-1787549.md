@@ -4,22 +4,22 @@ vendor: ALPS
 title: SKSLLBE010　　ALPS
 model: Tactile Switches SMT 2.2N Side Push 0.15mm 500 max
 left-cols: 
-- Manufacturer: 
-- Product Category:
-- Illuminated:
-- Mounting Style:T
-- Mounting Direction:
-- Actuator:
-- Switch Function:
-- Operating Force:
-- Current Rating:
-- Voltage Rating DC:
-- Ground Terminal:
-- Contact Form:
-- Termination Style:
-- Color:
-- Maximum Operating Temperature:
-- Minimum Operating Temperature:
+- Manufacturer 
+- Product Category
+- Illuminated
+- Mounting Style
+- Mounting Direction
+- Actuator
+- Switch Function
+- Operating Force
+- Current Rating
+- Voltage Rating DC
+- Ground Terminal
+- Contact Form
+- Termination Style
+- Color
+- Maximum Operating Temperature
+- Minimum Operating Temperature
 right-cols: 
 - ALPS
 - Tactile Switches

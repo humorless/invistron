@@ -4,20 +4,20 @@ vendor: ALPS
 title: SKHCBHA010　　ALPS
 model: Tactile Switches 12x12x4.3mm 260gf
 left-cols: 
-- Manufacturer: 
-- Product Category: 
-- Illuminated: 
-- Mounting Style: 
-- Mounting Direction: 
-- Actuator: 
-- Operating Force: 
-- Current Rating: 
-- Voltage Rating DC: 
-- Termination Style: 
-- Color: 
-- Contact Plating: 
-- Maximum Operating Temperature: 
-- Minimum Operating Temperature: 
+- Manufacturer 
+- Product Category
+- Illuminated
+- Mounting Style 
+- Mounting Direction 
+- Actuator 
+- Operating Force 
+- Current Rating 
+- Voltage Rating DC 
+- Termination Style 
+- Color 
+- Contact Plating 
+- Maximum Operating Temperature
+- Minimum Operating Temperature 
 right-cols: 
 - ALPS
 - Tactile Switches

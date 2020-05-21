@@ -4,17 +4,17 @@ vendor: ALPS
 title: SKSNLAE010　　ALPS
 model: Tactile Switches Mid MNT SNGL action F2.4N
 left-cols: 
-- Manufacturer: 
-- Product Category: 
-- Illuminated:
-- Mounting Style: 
-- Actuator:
-- Switch Function: 
-- Operating Force: 
-- Current Rating: 
-- Voltage Rating DC: 
-- Contact Form: 
-- Termination Style: 
+- Manufacturer 
+- Product Category 
+- Illuminated
+- Mounting Style 
+- Actuator
+- Switch Function 
+- Operating Force 
+- Current Rating 
+- Voltage Rating DC 
+- Contact Form 
+- Termination Style 
 right-cols: 
 - ALPS
 - Tactile Switches

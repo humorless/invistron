@@ -6,8 +6,8 @@ model: ''
 left-cols: 
 - 8 pin
 - SMT Type (with post)
-- Blade Switch: 
-- Dim.: 
+- Blade Switch 
+- Dim. 
 - PCI Compliant
 right-cols: 
 - 

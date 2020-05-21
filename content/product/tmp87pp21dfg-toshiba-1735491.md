@@ -4,21 +4,21 @@ vendor: TOSHIBA
 title: TMP87PP21DFG　　TOSHIBA
 model: 8-bit Microcontrollers - MCU TLCS870/C 48KB RPM
 left-cols: 
-- Manufacturer:
-- Product Category:
-- Mounting Style:
-- Package / Case:
-- Series:
-- Core:
-- Data Bus Width:
-- Maximum Clock Frequency:
-- Program Memory Size:
-- Data RAM Size:
-- ADC Resolution:
-- Number of I/Os:
-- Minimum Operating Temperature:
-- Maximum Operating Temperature:
-- Interface Type:
+- Manufacturer
+- Product Category
+- Mounting Style
+- Package / Case
+- Series
+- Core
+- Data Bus Width
+- Maximum Clock Frequency
+- Program Memory Size
+- Data RAM Size
+- ADC Resolution
+- Number of I/Os
+- Minimum Operating Temperature
+- Maximum Operating Temperature
+- Interface Type
 right-cols: 
 - Toshiba
 - 8-bit Microcontrollers - MCU

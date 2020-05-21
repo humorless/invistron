@@ -4,22 +4,22 @@ vendor: ALPS
 title: SKRPABE010　　ALPS
 model: Tactile Switches 4.2x3.2x2.5mm 160gf
 left-cols: 
-- Manufacturer: 
-- Product Category: 
-- Illuminated: 
-- Mounting Style: 
-- Mounting Direction: 
-- Stem Height: 
-- Operating Force: 
-- Current Rating: 
-- Voltage Rating DC: 
-- Ground Terminal: 
-- Contact Form: 
-- Termination Style: 
-- Color: 
-- Contact Plating: 
-- Maximum Operating Temperature: 
-- Minimum Operating Temperature: 
+- Manufacturer 
+- Product Category 
+- Illuminated 
+- Mounting Style 
+- Mounting Direction 
+- Stem Height 
+- Operating Force 
+- Current Rating 
+- Voltage Rating DC 
+- Ground Terminal 
+- Contact Form 
+- Termination Style 
+- Color 
+- Contact Plating 
+- Maximum Operating Temperature 
+- Minimum Operating Temperature 
 right-cols: 
 - ALPS
 - Tactile Switches

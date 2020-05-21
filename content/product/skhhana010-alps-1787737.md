@@ -4,22 +4,22 @@ vendor: ALPS
 title: SKHHANA010　　ALPS
 model: Tactile Switches 6.0x6.0x9.5mm 100gf
 left-cols: 
-- Manufacturer: 
-- Product Category: 
-- Illuminated: 
-- Mounting Style: 
-- Mounting Direction: 
-- Stem Height: 
-- Switch Function: 
-- Operating Force: 
-- Current Rating: 
-- Voltage Rating DC: 
-- Ground Terminal: 
-- Contact Form: 
-- Termination Style: 
-- Color: 
-- Maximum Operating Temperature: 
-- Minimum Operating Temperature: 
+- Manufacturer 
+- Product Category 
+- Illuminated 
+- Mounting Style 
+- Mounting Direction 
+- Stem Height 
+- Switch Function 
+- Operating Force 
+- Current Rating 
+- Voltage Rating DC 
+- Ground Terminal 
+- Contact Form 
+- Termination Style 
+- Color 
+- Maximum Operating Temperature 
+- Minimum Operating Temperature 
 right-cols: 
 - ALPS
 - Tactile Switches

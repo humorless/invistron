@@ -4,20 +4,20 @@ vendor: ALPS
 title: SKRTLAE010　　ALPS
 model: Tactile Switches 4.46x3.5x3.3mm 160gf with guide bosses
 left-cols: 
-- Manufacturer: 
-- Product Category: 
-- Illuminated: 
-- Mounting Style: 
-- Mounting Direction: 
-- Stem Height: 
-- Operating Force: 
-- Current Rating: 
-- Voltage Rating DC: 
-- Ground Terminal: 
-- Contact Form: 
-- Termination Style: 
-- Maximum Operating Temperature: 
-- Minimum Operating Temperature: 
+- Manufacturer 
+- Product Category 
+- Illuminated 
+- Mounting Style 
+- Mounting Direction 
+- Stem Height 
+- Operating Force 
+- Current Rating 
+- Voltage Rating DC 
+- Ground Terminal 
+- Contact Form 
+- Termination Style 
+- Maximum Operating Temperature 
+- Minimum Operating Temperature 
 right-cols: 
 - ALPS
 - Tactile Switches
