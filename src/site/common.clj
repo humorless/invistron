@@ -117,7 +117,7 @@
       ]]
      [:div.footer-copyright.text-center.py-3
        [:p.text-muted
-         "@2019 Copyright INVISTRON, Co. Ltd. All Rights Reserved"]]]])
+         "@2020 Copyright INVISTRON, Co. Ltd. All Rights Reserved"]]]])
 
 (defn create-main-content
   "This creates the main content of each page."
