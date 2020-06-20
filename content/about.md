@@ -14,7 +14,7 @@ Invistron is the direct distributor to: Preci-Dip, Wurth, Winbond, Panjit, King
 
 Commanding by the philosophy of service, technology, trust and mutual-sharing, we are fully committed to create win-wins to our customers, venders and employees.
 
-![DUNS](/assets/images/about/duns-cert.jpg )
+![DUNS](/assets/images/about/duns-cert.png )
 ![top1000](/assets/images/about/top1000-cert.png )
 ![TUVR](/assets/images/about/TUVR-cert.jpg )
 
