@@ -45,6 +45,8 @@ active:
   href: https://www.fujitsu.com/global/
 - img: GENESYS.jpg
   href: http://www.genesyslogic.com/en/index.php
+- img: GIGADEVICE.jpg
+  href: https://www.gigadevice.com/
 - img: GW.png
   href: http://www.goodwork.com.tw/drupal/en
 - img: HONEYWELL.png
@@ -99,6 +101,8 @@ active:
   href: https://www.murata.com/
 - img: NUVOTON.png
   href: http://www.nuvoton.com/hq/index.html?__locale=en
+- img: NVIDIA.png
+  href: https://www.nvidia.com
 - img: NXP.png
   href: https://www.nxp.com/
 - img: OHMITE.png
@@ -381,6 +385,8 @@ electro:
   href: https://www.littelfuse.com/
 - img: MOLEX.jpg
   href: https://www.molex.com/
+- img: MUP.jpg
+  href: http://www.mupconnector.com/
 - img: OMRON.jpg
   href: http://www.ia.omron.com/
 - img: OUPIIN.png
@@ -420,8 +426,14 @@ electro:
 led:
 - img: EVERLIGHT.png
   href: https://everlightamericas.com/
+- img: LUCKYLIGHT.jpg
+  href: https://www.luckylight.cn/en/
+- img: LUMILEDS.png
+  href: https://www.lumileds.com/
 - img: KINGBRIGHT.jpg
   href: http://www.kingbrightusa.com/
+- img: SUNLED.png
+  href: https://www.sunled.com/
 - img: VISHAY.png
   href: http://www.vishay.com/
 - img: WURTH.png
@@ -433,6 +445,8 @@ wireless:
   href: https://www.qualcomm.com/
 - img: SILICON LAB.png
   href: https://www.silabs.com/
+- img: SIMCOM.png
+  href: https://www.simcom.com/
 power:
 - img: APEC.jpg
   href: http://wedidcorp.com/en/
