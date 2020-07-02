@@ -4,12 +4,12 @@ vendor: SHINETSU
 title: MS type　　SHINETSU
 model: low resistance-type Inter-Connector
 left-cols: 
-- Pitch	P	mm
-- Length	L	mm
-- Height	H	mm
-- Width	W	mm
-- Core width	Z	mm
-- Width of insulation coat	Wi	mm	
+- Pitch P   mm
+- Length    L   mm
+- Height    H   mm
+- Width W   mm
+- Core width    Z   mm
+- Width of insulation coat  Wi  mm  
 - Volume resistivity
 - Insulation resistance
 - Compression set

@@ -15,5 +15,15 @@ left-cols:
 - Instrument panels
 - Digital readout displays
 right-cols: 
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
 img: KWA-541CVB.jpg
 ---

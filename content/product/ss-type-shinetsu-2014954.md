@@ -4,13 +4,13 @@ vendor: SHINETSU
 title: SS type　　SHINETSU
 model: Inter-Connector
 left-cols:
-- Pitch	P	mm
-- Length	L	mm
-- Height (1)	H	mm
-- Width (standard)	W	mm
-- Width of conductive layer	Z	mm
+- Pitch P   mm
+- Length    L   mm
+- Height (1)    H   mm
+- Width (standard)  W   mm
+- Width of conductive layer Z   mm
 - Specific gravity
-- Shore hardness A	
+- Shore hardness A  
 - Compression set
 - Volume resistivity
 - Dielectric breakdown voltage

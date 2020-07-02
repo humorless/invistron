@@ -14,5 +14,14 @@ left-cols:
 - Pb Free / RoHS compliant
 - Indefinite shelf life (MSL Level 1)
 right-cols: 
+-
+-
+-
+-
+-
+-
+-
+-
+-
 img: LXCL- EY27-2111.jpg
 ---
