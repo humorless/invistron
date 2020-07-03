@@ -21,6 +21,7 @@ left-cols:
 - Terabytes Written (TBW)
 - Mean Time Between Failures (MTBF)
 - Drive Writes Per Day (DWPD)
+- Note
 right-cols: 
 - 
 - 80.0 mm x 22.0 mm x 3.58 mm (3.15" x 0.87" x 0.14")
@@ -39,5 +40,6 @@ right-cols:
 - 120 GB  40 TBW
 - 1,000,000 hour(s)
 - 0.3 (3 yrs)
+- ·Speed may vary due to host hardware, software, usage, and storage capacity.·The workload used to rate DWPD may be different from your actual workload, which may vary due to host hardware, software, usage, and storage capacity.
 img: TS120GMTS820S.jpg
 ---
