@@ -3,7 +3,7 @@
 - 2020 
     - D&B D-U-N-S Certificate 2020
     - New parts added to product line:
-        - Simcon - GSM+GPRS Module
+        - Simcom - GSM+GPRS Module
         - Shinetsu - Zebra connectors
         - Nvidia   - SOM system on module
         - Luckylight - LED
